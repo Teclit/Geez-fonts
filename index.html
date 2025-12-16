@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Browse, preview, and download free Geez fonts for Word documents, websites, posters, signs, and business communication."
+    />
+    <meta
+      name="keywords"
+      content="Geez fonts, Tigrinya fonts, free fonts, FidelPE, Geez alphabet, Eritrean fonts"
+    />
+    <meta name="author" content="FidelPE Team" />
+    <meta name="theme-color" content="#0f766e" />
+
+    <title>Free Geez Fonts for Word, Documents, and Business</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FidelPE Geez Fonts" />
+    <meta property="og:title" content="Free Geez Fonts for Word, Documents, and Business" />
+    <meta
+      property="og:description"
+      content="Preview and download free Geez fonts for documents, websites, print, and everyday business use."
+    />
+    <meta property="og:image" content="Free%20Geez%20Fonts.png" />
+    <meta property="og:image:alt" content="Free Geez Fonts preview page" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="821" />
+    <meta property="og:image:height" content="390" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Free Geez Fonts for Word, Documents, and Business" />
+    <meta
+      name="twitter:description"
+      content="Preview and download free Geez fonts for documents, websites, print, and everyday business use."
+    />
+    <meta name="twitter:image" content="Free%20Geez%20Fonts.png" />
+    <meta name="twitter:image:alt" content="Free Geez Fonts preview page" />
+
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Font choices for business documents">
+        <section class="brand-panel">
+          <div class="panel-row">
+            <span class="kicker">Free Geez Fonts</span>
+            <button
+              id="themeToggle"
+              class="button button--quiet button--small"
+              type="button"
+              aria-pressed="false"
+            >
+              Dark
+            </button>
+          </div>
+
+          <div class="brand-copy">
+            <h1>Geez fonts for work and business</h1>
+            <p>
+              Choose fonts for Word documents, letters, reports, posters, websites,
+              and customer communication.
+            </p>
+          </div>
+
+          <div class="stats-grid" aria-label="Font collection summary">
+            <div class="stat">
+              <span id="cityCount" class="stat__value">0</span>
+              <span class="stat__label info-card__eyebrow_lg">Collections</span>
+            </div>
+
+            <div class="stat">
+              <span id="fontCount" class="stat__value">0</span>
+              <span class="stat__label info-card__eyebrow_lg">Fonts</span>
+            </div>
+          </div>
+        </section>
+
+        <details class="panel accordion-panel" open>
+          <summary class="panel-heading accordion-summary">
+            <h2>Choose your font</h2>
+            <span class="resultsSummary">0 fonts</span>
+          </summary>
+
+          <form id="controlsForm" class="controls accordion-content" onsubmit="return false;">
+            <label class="field" for="citySelect">
+              <span>Collection</span>
+              <select id="citySelect"></select>
+            </label>
+
+            <label class="field" for="fontSelect">
+              <span>Font</span>
+              <select id="fontSelect"></select>
+            </label>
+
+            <label class="field" for="textInput">
+              <span>Your sample text</span>
+              <input id="textInput" type="text" value="ሰላም ብጾት" />
+            </label>
+
+            <div class="search-row">
+              <label class="field" for="searchInput">
+                <span>Find a font</span>
+                <input id="searchInput" type="search" placeholder="Font, collection, or file" />
+              </label>
+
+              <button id="clearSearchButton" class="button button--quiet" type="button">
+                Clear search
+              </button>
+            </div>
+
+            <div class="control-grid">
+              <label class="field" for="sortSelect">
+                <span>Arrange by</span>
+                <select id="sortSelect">
+                  <option value="name">Name</option>
+                  <option value="city">Collection</option>
+                  <option value="file">Download</option>
+                </select>
+              </label>
+
+              <label class="field" for="sizeRange">
+                <span>Size <output id="sizeValue" for="sizeRange">52px</output></span>
+                <input id="sizeRange" type="range" min="12" max="592" step="2" value="52" />
+              </label>
+            </div>
+
+            <div class="segmented" role="group" aria-label="Display style">
+              <button id="gridViewButton" class="segmented__button is-active" type="button">
+                Cards
+              </button>
+              <button id="listViewButton" class="segmented__button" type="button">
+                List
+              </button>
+            </div>
+
+            <div class="button-row">
+              <button id="resetButton" class="button button--secondary" type="button">
+                Start over
+              </button>
+              <button id="randomButton" class="button" type="button">
+                Suggest one
+              </button>
+            </div>
+          </form>
+        </details>
+
+        <details class="panel selected-panel accordion-panel" open>
+          <summary class="panel-heading accordion-summary">
+            <h2>Ready to use</h2>
+            <span id="selectedCityBadge" class="pill">No collection</span>
+          </summary>
+
+          <div class="accordion-content selected-content">
+            <p id="livePreview" class="live-preview" aria-live="polite">ሰላም ብጾት</p>
+
+            <dl class="selected-meta">
+              <div>
+                <dt>Font name</dt>
+                <dd id="selectedFontName">Choose a font</dd>
+              </div>
+              <div>
+                <dt>Download</dt>
+                <dd id="selectedFileName">No download selected</dd>
+              </div>
+            </dl>
+
+            <div class="button-row">
+              <button id="favoriteButton" class="button button--secondary" type="button">
+                Save choice
+              </button>
+              <button id="copyCssButton" class="button" type="button">
+                Copy for website
+              </button>
+            </div>
+          </div>
+        </details>
+
+        <details class="panel sample-panel accordion-panel" aria-label="Quick samples" open>
+          <summary class="panel-heading accordion-summary">
+            <h2>Sample styles</h2>
+          </summary>
+
+          <div class="sample-stack accordion-content">
+            <article class="sample-card">
+              <span>Asmara Sans Geez</span>
+              <p class="asmara-sans">ሰላም ብጾት</p>
+            </article>
+
+            <article class="sample-card">
+              <span>Asmara Serif Geez</span>
+              <p class="asmara-serif">ሰላም ብጾት</p>
+            </article>
+          </div>
+        </details>
+        <details class="panel accordion-panel info-panel" open>
+          <summary class="panel-heading accordion-summary">
+            <h2>For your work</h2>
+          </summary>
+
+          <section class="info-grid accordion-content" aria-label="Work and business information">
+          <article class="info-card">
+            <span class="info-card__eyebrow">Business ready</span>
+            <h3>Fonts for everyday documents</h3>
+            <p>
+              Use these Geez fonts for Word documents, Google Docs, PDFs, letters,
+              reports, invoices, posters, signs, websites, and customer materials.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <span class="info-card__eyebrow">Simple use</span>
+            <h3>Choose once, use anywhere</h3>
+            <p>
+              Pick a collection, try your own words, save a favorite, then download
+              the font for office work, design tools, print jobs, or your website.
+            </p>
+          </article>
+
+          <article class="info-card info-card--license">
+            <span class="info-card__eyebrow">License</span>
+            <h3>Free for business</h3>
+            <p>
+              Use these fonts free of charge for personal, educational, community,
+              office, commercial, print, design, app, and website projects.
+            </p>
+          </article>
+<article class="info-card info-card--about">
+  <span class="info-card__eyebrow">About</span>
+  <h3>Clear Geez writing for every audience</h3>
+  <p>
+    FidelPE provides practical Geez fonts for Tigrinya and other Geez-based
+    writing, helping businesses, schools, offices, and communities present clear
+    text in print and on screen.
+  </p>
+  <p>
+    <span class="info-card__eyebrow_lg" >© FidelPE Asmara </span>
+    <span class="info-card__eyebrow_lg" id="copyrightYears" data-start-year="2023"></span>.
+    Prepared for everyday professional use by the FidelPE team.
+  </p>
+</article>
+          </section>
+        </details>
+      </aside>
+
+      <section class="workspace" aria-label="Font choices">
+        <header class="workspace-header">
+          <h2><span class="kicker">Font collection</span><span id="cityFontCount" class="resultsSummary">0</span><span id="cityTitle">All Geez font options</span></h2>
+          <div class="workspace-actions">
+            <label class="check-field">
+              <input id="favoritesOnly" type="checkbox" />
+              <span>Saved choices only</span>
+            </label>
+            <label class="check-field">
+              <input id="alphabetPreview" type="checkbox" role="switch" />
+              <span>Geez alphabets</span>
+            </label>
+          </div>
+        </header>
+        <p id="appError" class="alert" role="alert" hidden></p>
+
+        <div id="emptyState" class="empty-state" hidden>
+          No font choices match your search.
+        </div>
+
+        <div id="cityGrid" class="font-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

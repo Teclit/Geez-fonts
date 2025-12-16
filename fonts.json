@@ -1,0 +1,3978 @@
+{
+  "fonts": [
+    {
+      "path": "fonts/Haykota/Haykota-Senafe.ttf",
+      "city": "Haykota",
+      "file": "Haykota-Senafe.ttf",
+      "family": "ሃይኮታ ሰንዓፈ",
+      "subfamily": "Regular",
+      "full_name": "ሃይኮታ ሰንዓፈ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሃይኮታ ሰንዓፈ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u00120\u0012ï\u0012”\u0013H",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሃይኮታ ሰንዓፈ",
+          "subfamily": "Regular",
+          "full_name": "ሃይኮታ ሰንዓፈ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Haykota/Haykota-Barentu.ttf",
+      "city": "Haykota",
+      "file": "Haykota-Barentu.ttf",
+      "family": "ሃይኮታ ባረንቱ",
+      "subfamily": "Regular",
+      "full_name": "ሃይኮታ ባረንቱ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሃይኮታ ባረንቱ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u0012c\u0012(\u0012ï\u0012q",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u0012c\u0012(\u0012ï\u0012q\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሃይኮታ ባረንቱ",
+          "subfamily": "Regular",
+          "full_name": "ሃይኮታ ባረንቱ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Haykota/Haykota-assab.ttf",
+      "city": "Haykota",
+      "file": "Haykota-assab.ttf",
+      "family": "ሃይኮታ ዓሰብ",
+      "subfamily": "Regular",
+      "full_name": "ሃይኮታ ዓሰብ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሃይኮታ ዓሰብ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u0012”\u00120\u0012e",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0003\u0012Ì\u0012Æ\u0012s\u0000 \u0012”\u00120\u0012e\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሃይኮታ ዓሰብ",
+          "subfamily": "Regular",
+          "full_name": "ሃይኮታ ዓሰብ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Mendefera/MendeferaHalay-Regular.ttf",
+      "city": "Mendefera",
+      "file": "MendeferaHalay-Regular.ttf",
+      "family": "መንደፈራ ሓላይ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "መንደፈራ ሓላይ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "መንደፈራ ሓላይ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012\u0013\u0012\u000b\u0012Ì\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012\u0013\u0012\u000b\u0012Ì\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "መንደፈራ ሓላይ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "መንደፈራ ሓላይ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Mendefera/MendeferaTesseney-Regular.ttf",
+      "city": "Mendefera",
+      "file": "MendeferaTesseney-Regular.ttf",
+      "family": "መንደፈራ ተሰነይ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "መንደፈራ ተሰነይ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "መንደፈራ ተሰነይ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012p\u00120\u0012ê\u0012Ì\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012p\u00120\u0012ê\u0012Ì\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "መንደፈራ ተሰነይ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "መንደፈራ ተሰነይ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Mendefera/MendeferaNakfa-Regular.ttf",
+      "city": "Mendefera",
+      "file": "MendeferaNakfa-Regular.ttf",
+      "family": "መንደፈራ ናቅፋ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "መንደፈራ ናቅፋ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "መንደፈራ ናቅፋ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012ì\u0012E\u0013K\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0018\u0012ï\u0012\u0013H\u0012+\u0000 \u0012ì\u0012E\u0013K\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "መንደፈራ ናቅፋ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "መንደፈራ ናቅፋ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/SenafeLogoSarda-Medium.ttf",
+      "city": "Senafe",
+      "file": "SenafeLogoSarda-Medium.ttf",
+      "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ማእኸላይ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/SenafeLogoSarda-Regular.ttf",
+      "city": "Senafe",
+      "file": "SenafeLogoSarda-Regular.ttf",
+      "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ስሩዕ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/SenafeLogoSarda-Bold.ttf",
+      "city": "Senafe",
+      "file": "SenafeLogoSarda-Bold.ttf",
+      "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ድሙቅ Bold",
+      "postscript_name": "----Bold",
+      "family_display": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u000e\u0013\u000e\u00123\u0012-\u0012Û\u0000 \u00123\u0012-\u0012Û\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ሰንዓፈ ሎጎሳርዳ ሳርዳ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-metera.ttf",
+      "city": "Senafe",
+      "file": "Senafe-metera.ttf",
+      "family": "ሰንዓፈ መጠራ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ መጠራ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ መጠራ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ መጠራ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ መጠራ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Medium.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Medium.ttf",
+      "family": "ሰንዓፈ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ማእኸላይ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Regular.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Regular.ttf",
+      "family": "ሰንዓፈ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Thin.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Thin.ttf",
+      "family": "ሰንዓፈ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ቀጢን Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012@\u0013\"\u0012ï",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012@\u0013\"\u0012ï\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Qohayto.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Qohayto.ttf",
+      "family": "ሰንዓፈ ቖሓይቶ",
+      "subfamily": "Italic",
+      "full_name": "ሰንዓፈ ቖሓይቶ Italic",
+      "postscript_name": "--Italic",
+      "family_display": "ሰንዓፈ ቖሓይቶ",
+      "subfamily_display": "Italic",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ቖሓይቶ",
+          "subfamily": "Italic",
+          "full_name": "ሰንዓፈ ቖሓይቶ Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Belewkelew.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Belewkelew.ttf",
+      "family": "ሰንዓፈ በለውከለው",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ በለውከለው Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ በለውከለው",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ በለውከለው",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ በለውከለው Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Bold.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Bold.ttf",
+      "family": "ሰንዓፈ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ሰንዓፈ ድሙቅ Bold",
+      "postscript_name": "--Bold",
+      "family_display": "ሰንዓፈ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ሰንዓፈ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Senafe/Senafe-Light.ttf",
+      "city": "Senafe",
+      "file": "Senafe-Light.ttf",
+      "family": "ሰንዓፈ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ሰንዓፈ ፎኪስ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰንዓፈ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0013N\u0012™\u00125",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0012ï\u0012”\u0013H\u0000 \u0013N\u0012™\u00125\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰንዓፈ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ሰንዓፈ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Segheneyti/Segheneyti.ttf",
+      "city": "Segheneyti",
+      "file": "Segheneyti.ttf",
+      "family": "ሰገነይቲ",
+      "subfamily": "Bold",
+      "full_name": "ሰገነይቲ Bold",
+      "postscript_name": "-Bold",
+      "family_display": "ሰገነይቲ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0013\b\u0012ê\u0012Ì\u0012r",
+          "subfamily": "Bold",
+          "full_name": "\u00120\u0013\b\u0012ê\u0012Ì\u0012r\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ሰገነይቲ",
+          "subfamily": "Bold",
+          "full_name": "ሰገነይቲ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Segheneyti/SegheneytiMassawa.ttf",
+      "city": "Segheneyti",
+      "file": "SegheneytiMassawa.ttf",
+      "family": "ሰገነይቲ ባጽዕ",
+      "subfamily": "Regular",
+      "full_name": "ሰገነይቲ ባጽዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ሰገነይቲ ባጽዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00120\u0013\b\u0012ê\u0012Ì\u0012r\u0000 \u0012c\u0013=\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u00120\u0013\b\u0012ê\u0012Ì\u0012r\u0000 \u0012c\u0013=\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ሰገነይቲ ባጽዕ",
+          "subfamily": "Regular",
+          "full_name": "ሰገነይቲ ባጽዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Beilul/BeilulTsorona-Regular.ttf",
+      "city": "Beilul",
+      "file": "BeilulTsorona-Regular.ttf",
+      "family": "በይሉል ጾሮና ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "በይሉል ጾሮና ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "በይሉል ጾሮና ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "በይሉል ጾሮና ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "በይሉል ጾሮና ስሩዕ Regular"
+        },
+        "plat3-lang1118": {
+          "family": "በይሉል ጾሮና ስሩዕ"
+        }
+      }
+    },
+    {
+      "path": "fonts/Barentu/Barentu.ttf",
+      "city": "Barentu",
+      "file": "Barentu.ttf",
+      "family": "ባረንቱ",
+      "subfamily": "Regular",
+      "full_name": "ባረንቱ Regular",
+      "postscript_name": "-Regular",
+      "family_display": "ባረንቱ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0012(\u0012ï\u0012q",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባረንቱ",
+          "subfamily": "Regular",
+          "full_name": "ባረንቱ Regular"
+        },
+        "plat3-lang1118": {
+          "full_name": "ባረንቱ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Barentu/BarentuSenafe-Sans.ttf",
+      "city": "Barentu",
+      "file": "BarentuSenafe-Sans.ttf",
+      "family": "ባረንቱ ሰንዓፈ ብዘይ",
+      "subfamily": "Regular",
+      "full_name": "ባረንቱ ሰንዓፈ ብዘይ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባረንቱ ሰንዓፈ ብዘይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0012e\u0012ÿ\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባረንቱ ሰንዓፈ ብዘይ",
+          "subfamily": "Regular",
+          "full_name": "ባረንቱ ሰንዓፈ ብዘይ Regular"
+        },
+        "plat3-lang1118": {
+          "full_name": "ባረንቱ ሰንዓፈ ብዘይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Barentu/BarentuAdikeyh-Sans-Italic.ttf",
+      "city": "Barentu",
+      "file": "BarentuAdikeyh-Sans-Italic.ttf",
+      "family": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ",
+      "subfamily": "Regular",
+      "full_name": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u00120\u0012Î\u0013M\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat1-lang85": {
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u00120\u0012Î\u0013M\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ",
+          "subfamily": "Regular",
+          "full_name": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ Regular"
+        },
+        "plat3-lang1118": {
+          "full_name": "ባረንቱ ዓዲቀይሕ ብዘይ ሰያፍ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Barentu/BarentuElabered.ttf",
+      "city": "Barentu",
+      "file": "BarentuElabered.ttf",
+      "family": "ባረንቱ ዕላበርዕድ",
+      "subfamily": "Regular",
+      "full_name": "ባረንቱ ዕላበርዕድ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ባረንቱ ዕላበርዕድ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012’\u0012\u000b\u0012`\u0012-\u0012’\u0012ı",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012’\u0012\u000b\u0012`\u0012-\u0012’\u0012ı\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባረንቱ ዕላበርዕድ",
+          "subfamily": "Regular",
+          "full_name": "ባረንቱ ዕላበርዕድ Regular"
+        },
+        "plat3-lang1118": {
+          "full_name": "ባረንቱ ዕላበርዕድ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Barentu/BarentuDebarwa.ttf",
+      "city": "Barentu",
+      "file": "BarentuDebarwa.ttf",
+      "family": "ባረንቱ ድባርዋ",
+      "subfamily": "Regular",
+      "full_name": "ባረንቱ ድባርዋ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ባረንቱ ድባርዋ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012ı\u0012c\u0012-\u0012À",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0012(\u0012ï\u0012q\u0000 \u0012ı\u0012c\u0012-\u0012À\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባረንቱ ድባርዋ",
+          "subfamily": "Regular",
+          "full_name": "ባረንቱ ድባርዋ Regular"
+        },
+        "plat3-lang1118": {
+          "full_name": "ባረንቱ ድባርዋ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaSenafe-Regular.ttf",
+      "city": "Massawa",
+      "file": "MassawaSenafe-Regular.ttf",
+      "family": "ባጽዕ ሰንዓፈ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ሰንዓፈ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባጽዕ ሰንዓፈ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ሰንዓፈ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ሰንዓፈ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaSenafe-Light.ttf",
+      "city": "Massawa",
+      "file": "MassawaSenafe-Light.ttf",
+      "family": "ባጽዕ ሰንዓፈ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ሰንዓፈ ፎኪስ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባጽዕ ሰንዓፈ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0013N\u0012™\u00125",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0013N\u0012™\u00125\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ሰንዓፈ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ሰንዓፈ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/Massawa-Regular.ttf",
+      "city": "Massawa",
+      "file": "Massawa-Regular.ttf",
+      "family": "ባጽዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ባጽዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaKeren-Italic.ttf",
+      "city": "Massawa",
+      "file": "MassawaKeren-Italic.ttf",
+      "family": "ባጽዕ ከረን ሰያፍ",
+      "subfamily": "Italic",
+      "full_name": "ባጽዕ ከረን ሰያፍ Italic",
+      "postscript_name": "---Italic",
+      "family_display": "ባጽዕ ከረን ሰያፍ",
+      "subfamily_display": "Italic",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Italic",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u00120\u0012Î\u0013M\u0000 \u0000I\u0000t\u0000a\u0000l\u0000i\u0000c"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ከረን ሰያፍ",
+          "subfamily": "Italic",
+          "full_name": "ባጽዕ ከረን ሰያፍ Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaKeren-Regular.ttf",
+      "city": "Massawa",
+      "file": "MassawaKeren-Regular.ttf",
+      "family": "ባጽዕ ከረን ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ከረን ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባጽዕ ከረን ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ከረን ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ከረን ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaKeren-Bold.ttf",
+      "city": "Massawa",
+      "file": "MassawaKeren-Bold.ttf",
+      "family": "ባጽዕ ከረን ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ባጽዕ ከረን ድሙቅ Bold",
+      "postscript_name": "---Bold",
+      "family_display": "ባጽዕ ከረን ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ከረን ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ባጽዕ ከረን ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaKeren-BoldItalic.ttf",
+      "city": "Massawa",
+      "file": "MassawaKeren-BoldItalic.ttf",
+      "family": "ባጽዕ ከረን ድሙቅ ሰያፍ",
+      "subfamily": "Bold Italic",
+      "full_name": "ባጽዕ ከረን ድሙቅ ሰያፍ Bold Italic",
+      "postscript_name": "----Bold-Italic",
+      "family_display": "ባጽዕ ከረን ድሙቅ ሰያፍ",
+      "subfamily_display": "Bold Italic",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Bold Italic",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M\u0000 \u0000B\u0000o\u0000l\u0000d\u0000 \u0000I\u0000t\u0000a\u0000l\u0000i\u0000c"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ከረን ድሙቅ ሰያፍ",
+          "subfamily": "Bold Italic",
+          "full_name": "ባጽዕ ከረን ድሙቅ ሰያፍ Bold Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaGeez-Regular.ttf",
+      "city": "Massawa",
+      "file": "MassawaGeez-Regular.ttf",
+      "family": "ባጽዕ ግእዝ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ግእዝ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባጽዕ ግእዝ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0013\r\u0012•\u0012›\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0013\r\u0012•\u0012›\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ግእዝ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ግእዝ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/MassawaGeez-Light.ttf",
+      "city": "Massawa",
+      "file": "MassawaGeez-Light.ttf",
+      "family": "ባጽዕ ግእዝ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ግእዝ ፎኪስ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ባጽዕ ግእዝ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0013\r\u0012•\u0012›\u0000 \u0013N\u0012™\u00125",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0013\r\u0012•\u0012›\u0000 \u0013N\u0012™\u00125\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ግእዝ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ግእዝ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Massawa/Massawa-Light.ttf",
+      "city": "Massawa",
+      "file": "Massawa-Light.ttf",
+      "family": "ባጽዕ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ባጽዕ ፎኪስ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ባጽዕ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012c\u0013=\u0012’\u0000 \u0013N\u0012™\u00125",
+          "subfamily": "Regular",
+          "full_name": "\u0012c\u0013=\u0012’\u0000 \u0013N\u0012™\u00125\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ባጽዕ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ባጽዕ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaSenafe-Regular.ttf",
+      "city": "Nakfa",
+      "file": "NakfaSenafe-Regular.ttf",
+      "family": "ናቅፋ ሰንዓፈ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ሰንዓፈ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ናቅፋ ሰንዓፈ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ሰንዓፈ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ሰንዓፈ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/Nakfa-Regular.ttf",
+      "city": "Nakfa",
+      "file": "Nakfa-Regular.ttf",
+      "family": "ናቅፋ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ናቅፋ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaMassawa.ttf",
+      "city": "Nakfa",
+      "file": "NakfaMassawa.ttf",
+      "family": "ናቅፋ ባጽዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ባጽዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ናቅፋ ባጽዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012c\u0013=\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012c\u0013=\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ባጽዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ባጽዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaSansSerif-Regular.ttf",
+      "city": "Nakfa",
+      "file": "NakfaSansSerif-Regular.ttf",
+      "family": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ስሩዕ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaSansSerif-Bold.ttf",
+      "city": "Nakfa",
+      "file": "NakfaSansSerif-Bold.ttf",
+      "family": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ድሙቅ Bold",
+      "postscript_name": "-----Bold",
+      "family_display": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012e\u0012ÿ\u0012Ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ናቅፋ ብዘይ ንእሽቶ ኩርናዕ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTesseney.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTesseney.ttf",
+      "family": "ናቅፋ ተሰነይ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ተሰነይ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ናቅፋ ተሰነይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012p\u00120\u0012ê\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012p\u00120\u0012ê\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ተሰነይ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ተሰነይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaAssab.ttf",
+      "city": "Nakfa",
+      "file": "NakfaAssab.ttf",
+      "family": "ናቅፋ ዓሰብ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ዓሰብ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ናቅፋ ዓሰብ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012”\u00120\u0012e",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012”\u00120\u0012e\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ዓሰብ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ዓሰብ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaAdiQuala.ttf",
+      "city": "Nakfa",
+      "file": "NakfaAdiQuala.ttf",
+      "family": "ናቅፋ ዓዲ ኳላ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ዓዲ ኳላ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ናቅፋ ዓዲ ኳላ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ዓዲ ኳላ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ዓዲ ኳላ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/Nakfa-Bold.ttf",
+      "city": "Nakfa",
+      "file": "Nakfa-Bold.ttf",
+      "family": "ናቅፋ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ናቅፋ ድሙቅ Bold",
+      "postscript_name": "--Bold",
+      "family_display": "ናቅፋ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ናቅፋ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsorona-Regular.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsorona-Regular.ttf",
+      "family": "ናቅፋ ጾሮና ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ጾሮና ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ናቅፋ ጾሮና ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ጾሮና ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsoronaSerif-Regular.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsoronaSerif-Regular.ttf",
+      "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ስሩዕ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsoronaSerif-Bold.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsoronaSerif-Bold.ttf",
+      "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ድሙቅ Bold",
+      "postscript_name": "-----Bold",
+      "family_display": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsoronaSerif-SemiBold.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsoronaSerif-SemiBold.ttf",
+      "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0013M\u0012-\u0012B\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Regular",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ï\u0012•\u0012=\u0012v\u0000 \u0012©\u0012-\u0012ì\u0012’\u0000 \u0013M\u0012-\u0012B\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ናቅፋ ጾሮና ንእሽቶ ኩርናዕ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsorona-Bold.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsorona-Bold.ttf",
+      "family": "ናቅፋ ጾሮና ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ናቅፋ ጾሮና ድሙቅ Bold",
+      "postscript_name": "---Bold",
+      "family_display": "ናቅፋ ጾሮና ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ናቅፋ ጾሮና ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Nakfa/NakfaTsorona-SemiBold.ttf",
+      "city": "Nakfa",
+      "file": "NakfaTsorona-SemiBold.ttf",
+      "family": "ናቅፋ ጾሮና ፍርቂ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ናቅፋ ጾሮና ፍርቂ ድሙቅ Bold",
+      "postscript_name": "----Bold",
+      "family_display": "ናቅፋ ጾሮና ፍርቂ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0013M\u0012-\u0012B\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ì\u0012E\u0013K\u0000 \u0013>\u0012.\u0012ì\u0000 \u0013M\u0012-\u0012B\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ናቅፋ ጾሮና ፍርቂ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ናቅፋ ጾሮና ፍርቂ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Medium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Medium.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ማእኸላይ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Regular.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Regular.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ስሩዕ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Thin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Thin.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ቀጢን Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensed.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedMedium.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedThin.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedExtraBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedExtraLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "------Bold",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedBlack.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedSemiBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraCondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraCondensedLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-ExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-ExtraLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Condensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Condensed.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedMedium.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedThin.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedExtraBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedExtraLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "-----Bold",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedBlack.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedSemiBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-CondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-CondensedLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Bold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Bold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ድሙቅ Bold",
+      "postscript_name": "----Bold",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Black.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Black.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ጸሊም Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensed.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedMedium.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedThin.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedExtraBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedExtraLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "------Bold",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedBlack.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedSemiBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiCondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiCondensedLight.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-SemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-SemiBold.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSansGeez-Light.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSansGeez-Light.ttf",
+      "family": "ኣስመራ ብዘይ ግእዝ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ብዘይ ግእዝ ፎኪስ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ኣስመራ ብዘይ ግእዝ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ብዘይ ግእዝ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ብዘይ ግእዝ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Medium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Medium.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ማእኸላይ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Regular.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Regular.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ስሩዕ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Thin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Thin.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ቀጢን Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensed.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedMedium.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedThin.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedExtraBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedExtraLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "-------Bold",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedBlack.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedSemiBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraCondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraCondensedLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-ExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-ExtraLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Condensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Condensed.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedMedium.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedThin.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedExtraBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedExtraLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "------Bold",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedBlack.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedSemiBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-CondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-CondensedLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Bold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Bold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ድሙቅ Bold",
+      "postscript_name": "-----Bold",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Black.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Black.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ጸሊም Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensed.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensed.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedMedium.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedMedium.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedThin.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedThin.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedExtraBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedExtraBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedExtraLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedExtraLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ተወሳኺ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ Bold",
+      "postscript_name": "-------Bold",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedBlack.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedBlack.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedSemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedSemiBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "--------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiCondensedLight.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiCondensedLight.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ Regular",
+      "postscript_name": "-------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ዝተሓጽረ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-SemiBold.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-SemiBold.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ድሙቅ Regular",
+      "postscript_name": "------Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፍርቂ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Asmara/AsmaraSerifGeez-Light.ttf",
+      "city": "Asmara",
+      "file": "AsmaraSerifGeez-Light.ttf",
+      "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፎኪስ",
+      "subfamily": "Regular",
+      "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፎኪስ Regular",
+      "postscript_name": "-----Regular",
+      "family_display": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፎኪስ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፎኪስ",
+          "subfamily": "Regular",
+          "full_name": "ኣስመራ ንእሽቶ ኩርናዕ ግእዝ ፎኪስ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Agordat/agordat-Thio.ttf",
+      "city": "Agordat",
+      "file": "agordat-Thio.ttf",
+      "family": "ኣቑርዳት ጢዖ",
+      "subfamily": "Regular",
+      "full_name": "ኣቑርዳት ጢዖ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ኣቑርዳት ጢዖ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012£\u0012Q\u0012-\u0012Û\u0012u\u0000 \u0013\"\u0012÷",
+          "subfamily": "Regular",
+          "full_name": "\u0012£\u0012Q\u0012-\u0012Û\u0012u\u0000 \u0013\"\u0012÷\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1027": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1029": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1030": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1031": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1032": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1033": {
+          "family": "ኣቑርዳት ጢዖ",
+          "subfamily": "Regular",
+          "full_name": "ኣቑርዳት ጢዖ Regular"
+        },
+        "plat3-lang1034": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1035": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1036": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1038": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1040": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1043": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1044": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1045": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1046": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1049": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1051": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1053": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1055": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1060": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1069": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang2058": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang2070": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang3082": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang3084": {
+          "subfamily": "Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Afabet/afabet_Senafe.ttf",
+      "city": "Afabet",
+      "file": "afabet_Senafe.ttf",
+      "family": "ኣፍዓበት ሰንዓፈ",
+      "subfamily": "Regular",
+      "full_name": "ኣፍዓበት ሰንዓፈ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ኣፍዓበት ሰንዓፈ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012£\u0013M\u0012”\u0012`\u0012u\u0000 \u00120\u0012ï\u0012”\u0013H",
+          "subfamily": "Regular",
+          "full_name": "\u0012£\u0013M\u0012”\u0012`\u0012u\u0000 \u00120\u0012ï\u0012”\u0013H\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ኣፍዓበት ሰንዓፈ",
+          "subfamily": "Regular",
+          "full_name": "ኣፍዓበት ሰንዓፈ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/EmbaDerho/EmbaDerhoMassawa-Regular.ttf",
+      "city": "EmbaDerho",
+      "file": "EmbaDerhoMassawa-Regular.ttf",
+      "family": "እምባ ደርሆ ባጽዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "እምባ ደርሆ ባጽዕ ስሩዕ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "እምባ ደርሆ ባጽዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "እምባ ደርሆ ባጽዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "እምባ ደርሆ ባጽዕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/EmbaDerho/EmbaDerhoAssab-Regular.ttf",
+      "city": "EmbaDerho",
+      "file": "EmbaDerhoAssab-Regular.ttf",
+      "family": "እምባ ደርሆ ዓሰብ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "እምባ ደርሆ ዓሰብ ስሩዕ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "እምባ ደርሆ ዓሰብ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "እምባ ደርሆ ዓሰብ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "እምባ ደርሆ ዓሰብ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/EmniHaili/EmniHaili.ttf",
+      "city": "EmniHaili",
+      "file": "EmniHaili.ttf",
+      "family": "እምኒ ሓይሊ",
+      "subfamily": "Regular",
+      "full_name": "እምኒ ሓይሊ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "እምኒ ሓይሊ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n",
+          "subfamily": "Regular",
+          "full_name": "\u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "እምኒ ሓይሊ",
+          "subfamily": "Regular",
+          "full_name": "እምኒ ሓይሊ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/EmniHaili/EmniHailiAreza.ttf",
+      "city": "EmniHaili",
+      "file": "EmniHailiAreza.ttf",
+      "family": "እምኒ ሓይሊ ዓረዛ",
+      "subfamily": "Regular",
+      "full_name": "እምኒ ሓይሊ ዓረዛ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "እምኒ ሓይሊ ዓረዛ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n\u0000 \u0012”\u0012(\u0012€",
+          "subfamily": "Regular",
+          "full_name": "\u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n\u0000 \u0012”\u0012(\u0012€\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "እምኒ ሓይሊ ዓረዛ",
+          "subfamily": "Regular",
+          "full_name": "እምኒ ሓይሊ ዓረዛ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-MediumItalic.ttf",
+      "city": "Keren",
+      "file": "Keren-MediumItalic.ttf",
+      "family": "ከረን ማእኸላይ ሰያፍ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ማእኸላይ ሰያፍ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ማእኸላይ ሰያፍ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì\u0000 \u00120\u0012Î\u0013M\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ማእኸላይ ሰያፍ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ማእኸላይ ሰያፍ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-Italic.ttf",
+      "city": "Keren",
+      "file": "Keren-Italic.ttf",
+      "family": "ከረን ሰያፍ",
+      "subfamily": "Italic",
+      "full_name": "ከረን ሰያፍ Italic",
+      "postscript_name": "--Italic",
+      "family_display": "ከረን ሰያፍ",
+      "subfamily_display": "Italic",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Italic",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u00120\u0012Î\u0013M\u0000 \u0000I\u0000t\u0000a\u0000l\u0000i\u0000c"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ሰያፍ",
+          "subfamily": "Italic",
+          "full_name": "ከረን ሰያፍ Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-Regular.ttf",
+      "city": "Keren",
+      "file": "Keren-Regular.ttf",
+      "family": "ከረን ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ከረን ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-Thin.ttf",
+      "city": "Keren",
+      "file": "Keren-Thin.ttf",
+      "family": "ከረን ቀጢን",
+      "subfamily": "Regular",
+      "full_name": "ከረን ቀጢን Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ከረን ቀጢን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012@\u0013\"\u0012ï",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012@\u0013\"\u0012ï\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ቀጢን",
+          "subfamily": "Regular",
+          "full_name": "ከረን ቀጢን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-ThinItalic.ttf",
+      "city": "Keren",
+      "file": "Keren-ThinItalic.ttf",
+      "family": "ከረን ቀጢን ሰያፍ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ቀጢን ሰያፍ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ቀጢን ሰያፍ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012@\u0013\"\u0012ï\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012@\u0013\"\u0012ï\u0000 \u00120\u0012Î\u0013M\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ቀጢን ሰያፍ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ቀጢን ሰያፍ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAssab-Medium.ttf",
+      "city": "Keren",
+      "file": "KerenAssab-Medium.ttf",
+      "family": "ከረን ዓሰብ ማእኸላይ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ዓሰብ ማእኸላይ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ዓሰብ ማእኸላይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012\u001b\u0012•\u0012∏\u0012\u000b\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓሰብ ማእኸላይ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ዓሰብ ማእኸላይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAssab-Italic.ttf",
+      "city": "Keren",
+      "file": "KerenAssab-Italic.ttf",
+      "family": "ከረን ዓሰብ ሰያፍ",
+      "subfamily": "Italic",
+      "full_name": "ከረን ዓሰብ ሰያፍ Italic",
+      "postscript_name": "---Italic",
+      "family_display": "ከረን ዓሰብ ሰያፍ",
+      "subfamily_display": "Italic",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Italic",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u00120\u0012Î\u0013M\u0000 \u0000I\u0000t\u0000a\u0000l\u0000i\u0000c"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓሰብ ሰያፍ",
+          "subfamily": "Italic",
+          "full_name": "ከረን ዓሰብ ሰያፍ Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAssab-Regular.ttf",
+      "city": "Keren",
+      "file": "KerenAssab-Regular.ttf",
+      "family": "ከረን ዓሰብ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ዓሰብ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ዓሰብ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓሰብ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ዓሰብ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAssab-Bold.ttf",
+      "city": "Keren",
+      "file": "KerenAssab-Bold.ttf",
+      "family": "ከረን ዓሰብ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ከረን ዓሰብ ድሙቅ Bold",
+      "postscript_name": "---Bold",
+      "family_display": "ከረን ዓሰብ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓሰብ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ከረን ዓሰብ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAssab-BoldItalic.ttf",
+      "city": "Keren",
+      "file": "KerenAssab-BoldItalic.ttf",
+      "family": "ከረን ዓሰብ ድሙቅ ሰያፍ",
+      "subfamily": "Bold Oblique",
+      "full_name": "ከረን ዓሰብ ድሙቅ ሰያፍ Bold Oblique",
+      "postscript_name": "----Bold-Oblique",
+      "family_display": "ከረን ዓሰብ ድሙቅ ሰያፍ",
+      "subfamily_display": "Bold Oblique",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Bold Oblique",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u00120\u0012e\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M\u0000 \u0000B\u0000o\u0000l\u0000d\u0000 \u0000O\u0000b\u0000l\u0000i\u0000q\u0000u\u0000e"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓሰብ ድሙቅ ሰያፍ",
+          "subfamily": "Bold Oblique",
+          "full_name": "ከረን ዓሰብ ድሙቅ ሰያፍ Bold Oblique"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAdiQuala-Regular.ttf",
+      "city": "Keren",
+      "file": "KerenAdiQuala-Regular.ttf",
+      "family": "ከረን ዓዲ ኳላ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ዓዲ ኳላ ስሩዕ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ከረን ዓዲ ኳላ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓዲ ኳላ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ዓዲ ኳላ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAdikeyh-Italic.ttf",
+      "city": "Keren",
+      "file": "KerenAdikeyh-Italic.ttf",
+      "family": "ከረን ዓዲቀይሕ ሰያፍ",
+      "subfamily": "Italic",
+      "full_name": "ከረን ዓዲቀይሕ ሰያፍ Italic",
+      "postscript_name": "---Italic",
+      "family_display": "ከረን ዓዲቀይሕ ሰያፍ",
+      "subfamily_display": "Italic",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Italic",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u00120\u0012Î\u0013M\u0000 \u0000I\u0000t\u0000a\u0000l\u0000i\u0000c"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓዲቀይሕ ሰያፍ",
+          "subfamily": "Italic",
+          "full_name": "ከረን ዓዲቀይሕ ሰያፍ Italic"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenAdikeyh-Regular.ttf",
+      "city": "Keren",
+      "file": "KerenAdikeyh-Regular.ttf",
+      "family": "ከረን ዓዲቀይሕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ዓዲቀይሕ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ዓዲቀይሕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ዓዲቀይሕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ዓዲቀይሕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-Bold.ttf",
+      "city": "Keren",
+      "file": "Keren-Bold.ttf",
+      "family": "ከረን ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ድሙቅ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ከረን ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-BoldItalic.ttf",
+      "city": "Keren",
+      "file": "Keren-BoldItalic.ttf",
+      "family": "ከረን ድሙቅ ሰያፍ",
+      "subfamily": "Bold Oblique",
+      "full_name": "ከረን ድሙቅ ሰያፍ Bold Oblique",
+      "postscript_name": "---Bold-Oblique",
+      "family_display": "ከረን ድሙቅ ሰያፍ",
+      "subfamily_display": "Bold Oblique",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Bold Oblique",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u00120\u0012Î\u0013M\u0000 \u0000B\u0000o\u0000l\u0000d\u0000 \u0000O\u0000b\u0000l\u0000i\u0000q\u0000u\u0000e"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ድሙቅ ሰያፍ",
+          "subfamily": "Bold Oblique",
+          "full_name": "ከረን ድሙቅ ሰያፍ Bold Oblique"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/KerenThio-Regular.ttf",
+      "city": "Keren",
+      "file": "KerenThio-Regular.ttf",
+      "family": "ከረን ጢዖ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ጢዖ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ጢዖ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u0013\"\u0012÷\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u0013\"\u0012÷\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ጢዖ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ጢዖ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-Black.ttf",
+      "city": "Keren",
+      "file": "Keren-Black.ttf",
+      "family": "ከረን ጸሊም",
+      "subfamily": "Regular",
+      "full_name": "ከረን ጸሊም Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ከረን ጸሊም",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u00138\u0012\n\u0012\u001d",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u00138\u0012\n\u0012\u001d\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ጸሊም",
+          "subfamily": "Regular",
+          "full_name": "ከረን ጸሊም Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Keren/Keren-BlackItalic.ttf",
+      "city": "Keren",
+      "file": "Keren-BlackItalic.ttf",
+      "family": "ከረን ጸሊም ሰያፍ",
+      "subfamily": "Regular",
+      "full_name": "ከረን ጸሊም ሰያፍ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ከረን ጸሊም ሰያፍ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012®\u0012(\u0012ï\u0000 \u00138\u0012\n\u0012\u001d\u0000 \u00120\u0012Î\u0013M",
+          "subfamily": "Regular",
+          "full_name": "\u0012®\u0012(\u0012ï\u0000 \u00138\u0012\n\u0012\u001d\u0000 \u00120\u0012Î\u0013M\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ከረን ጸሊም ሰያፍ",
+          "subfamily": "Regular",
+          "full_name": "ከረን ጸሊም ሰያፍ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Assab/AssabTesseney-Regular.ttf",
+      "city": "Assab",
+      "file": "AssabTesseney-Regular.ttf",
+      "family": "ዓሰብ ተሰነይ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ዓሰብ ተሰነይ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ዓሰብ ተሰነይ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ዓሰብ ተሰነይ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ዓሰብ ተሰነይ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Assab/AssabForo-Regular.ttf",
+      "city": "Assab",
+      "file": "AssabForo-Regular.ttf",
+      "family": "ዓሰብ ፎሮ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ዓሰብ ፎሮ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ዓሰብ ፎሮ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ዓሰብ ፎሮ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ዓሰብ ፎሮ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/AdiQuala/adiQuala_Habero.ttf",
+      "city": "AdiQuala",
+      "file": "adiQuala_Habero.ttf",
+      "family": "ዓዲ ኳላ ሃበሮ",
+      "subfamily": "Regular",
+      "full_name": "ዓዲ ኳላ ሃበሮ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ዓዲ ኳላ ሃበሮ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u0012\u0003\u0012`\u0012.",
+          "subfamily": "Regular",
+          "full_name": "\u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u0012\u0003\u0012`\u0012.\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ዓዲ ኳላ ሃበሮ",
+          "subfamily": "Regular",
+          "full_name": "ዓዲ ኳላ ሃበሮ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/AdiQuala/adiQuala_Himberti.ttf",
+      "city": "AdiQuala",
+      "file": "adiQuala_Himberti.ttf",
+      "family": "ዓዲ ኳላ ሕምብርቲ",
+      "subfamily": "Regular",
+      "full_name": "ዓዲ ኳላ ሕምብርቲ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ዓዲ ኳላ ሕምብርቲ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u0012\u0015\u0012\u001d\u0012e\u0012-\u0012r",
+          "subfamily": "Regular",
+          "full_name": "\u0012”\u0012Ú\u0000 \u0012≥\u0012\u000b\u0000 \u0012\u0015\u0012\u001d\u0012e\u0012-\u0012r\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ዓዲ ኳላ ሕምብርቲ",
+          "subfamily": "Regular",
+          "full_name": "ዓዲ ኳላ ሕምብርቲ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/AdiKeyh/adikeyh_Halhal.ttf",
+      "city": "AdiKeyh",
+      "file": "adikeyh_Halhal.ttf",
+      "family": "ዓዲቀይሕ ሓልሓል",
+      "subfamily": "Regular",
+      "full_name": "ዓዲቀይሕ ሓልሓል Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ዓዲቀይሕ ሓልሓል",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u0012\u0013\u0012\r\u0012\u0013\u0012\r",
+          "subfamily": "Regular",
+          "full_name": "\u0012”\u0012Ú\u0012@\u0012Ì\u0012\u0015\u0000 \u0012\u0013\u0012\r\u0012\u0013\u0012\r\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1027": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1029": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1030": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1031": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1032": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1033": {
+          "family": "ዓዲቀይሕ ሓልሓል",
+          "subfamily": "Regular",
+          "full_name": "ዓዲቀይሕ ሓልሓል Regular"
+        },
+        "plat3-lang1034": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1035": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1036": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1038": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1040": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1043": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1044": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1045": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1046": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1049": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1051": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1053": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1055": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1060": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang1069": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang2058": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang2070": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang3082": {
+          "subfamily": "Regular"
+        },
+        "plat3-lang3084": {
+          "subfamily": "Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareHabero.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareHabero.ttf",
+      "family": "ደቀምሓረ ሃበሮ",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ ሃበሮ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ደቀምሓረ ሃበሮ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012\u0003\u0012`\u0012.",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012\u0003\u0012`\u0012.\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ ሃበሮ",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ ሃበሮ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/Dekemhare-regular.ttf",
+      "city": "Dekemhare",
+      "file": "Dekemhare-regular.ttf",
+      "family": "ደቀምሓረ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ደቀምሓረ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareBeilul.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareBeilul.ttf",
+      "family": "ደቀምሓረ በይሉል",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ በይሉል Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ደቀምሓረ በይሉል",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012`\u0012Ì\u0012\t\u0012\r",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012`\u0012Ì\u0012\t\u0012\r\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ በይሉል",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ በይሉል Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareTesseney.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareTesseney.ttf",
+      "family": "ደቀምሓረ ተሰነይ",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ ተሰነይ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ደቀምሓረ ተሰነይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012p\u00120\u0012ê\u0012Ì",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012p\u00120\u0012ê\u0012Ì\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ ተሰነይ",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ ተሰነይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareAfabet-Bold.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareAfabet-Bold.ttf",
+      "family": "ደቀምሓረ ኣፍዓበት ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ ኣፍዓበት ድሙቅ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ደቀምሓረ ኣፍዓበት ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012£\u0013M\u0012”\u0012`\u0012u\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012£\u0013M\u0012”\u0012`\u0012u\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ ኣፍዓበት ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ ኣፍዓበት ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareEmniHaili.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareEmniHaili.ttf",
+      "family": "ደቀምሓረ እምኒ ሓይሊ",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ እምኒ ሓይሊ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ደቀምሓረ እምኒ ሓይሊ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012•\u0012\u001d\u0012í\u0000 \u0012\u0013\u0012Ì\u0012\n\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ እምኒ ሓይሊ",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ እምኒ ሓይሊ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Dekemhare/DekemhareKeren.ttf",
+      "city": "Dekemhare",
+      "file": "DekemhareKeren.ttf",
+      "family": "ደቀምሓረ ከረን",
+      "subfamily": "Regular",
+      "full_name": "ደቀምሓረ ከረን Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ደቀምሓረ ከረን",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012®\u0012(\u0012ï",
+          "subfamily": "Regular",
+          "full_name": "\u0012\u0012@\u0012\u001d\u0012\u0013\u0012(\u0000 \u0012®\u0012(\u0012ï\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ደቀምሓረ ከረን",
+          "subfamily": "Regular",
+          "full_name": "ደቀምሓረ ከረን Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Debarwa/Debarwa-Regular.ttf",
+      "city": "Debarwa",
+      "file": "Debarwa-Regular.ttf",
+      "family": "ድባርዋ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ድባርዋ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ድባርዋ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ድባርዋ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ድባርዋ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Debarwa/Debarwa-ExtraBold.ttf",
+      "city": "Debarwa",
+      "file": "Debarwa-ExtraBold.ttf",
+      "family": "ድባርዋ ተወሳኺ ድሙቅ",
+      "subfamily": "Regular",
+      "full_name": "ድባርዋ ተወሳኺ ድሙቅ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ድባርዋ ተወሳኺ ድሙቅ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u0012p\u0012»\u00123\u0012∫\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Regular",
+          "full_name": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u0012p\u0012»\u00123\u0012∫\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ድባርዋ ተወሳኺ ድሙቅ",
+          "subfamily": "Regular",
+          "full_name": "ድባርዋ ተወሳኺ ድሙቅ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Debarwa/Debarwa-Bold.ttf",
+      "city": "Debarwa",
+      "file": "Debarwa-Bold.ttf",
+      "family": "ድባርዋ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ድባርዋ ድሙቅ Bold",
+      "postscript_name": "--Bold",
+      "family_display": "ድባርዋ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u0012ı\u0012\u0019\u0012E",
+          "subfamily": "Bold",
+          "full_name": "\u0012ı\u0012c\u0012-\u0012À\u0000 \u0012ı\u0012\u0019\u0012E\u0000 \u0000B\u0000o\u0000l\u0000d"
+        },
+        "plat3-lang1033": {
+          "family": "ድባርዋ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ድባርዋ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwriting.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwriting.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingWithRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingWithRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ምስ መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ምስ መስመር Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ምስ መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ምስ መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ምስ መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingWithArrows.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingWithArrows.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ምስ ፍላጻታት",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ምስ ፍላጻታት Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ምስ ፍላጻታት",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ምስ ፍላጻታት",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ምስ ፍላጻታት Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingDots.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingDots.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ነጥብታት",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingDotsArrRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingDotsArrRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Arr መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Arr መስመር Regular",
+      "postscript_name": "---Arr--Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Arr መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Arr መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት Arr መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingDotsRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingDotsRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት መስመር Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ነጥብታት መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingDotsArrows.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingDotsArrows.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት ፍላጻታት",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት ፍላጻታት Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ነጥብታት ፍላጻታት",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ነጥብታት ፍላጻታት",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ነጥብታት ፍላጻታት Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingOutlines.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingOutlines.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ኣውታር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ኣውታር Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ኣውታር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ኣውታር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ኣውታር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingOutlinesRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingOutlinesRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ኣውታር መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ኣውታር መስመር Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ኣውታር መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ኣውታር መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ኣውታር መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingOutArrRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingOutArrRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ደገ Arr መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ደገ Arr መስመር Regular",
+      "postscript_name": "---Arr--Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ደገ Arr መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ደገ Arr መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ደገ Arr መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingOutArrows.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingOutArrows.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ደገ ፍላጻታት",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ደገ ፍላጻታት Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ደገ ፍላጻታት",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ደገ ፍላጻታት",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ደገ ፍላጻታት Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingBold.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingBold.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ድሙቅ",
+      "subfamily": "Bold",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ድሙቅ Bold",
+      "postscript_name": "---Bold",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ድሙቅ",
+      "subfamily_display": "Bold",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ድሙቅ",
+          "subfamily": "Bold",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ድሙቅ Bold"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingArrowsRules.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingArrowsRules.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት መስመር",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት መስመር Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት መስመር",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት መስመር",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት መስመር Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/GeezFonts/GeezHandwritingArrowsOnly.ttf",
+      "city": "GeezFonts",
+      "file": "GeezHandwritingArrowsOnly.ttf",
+      "family": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት ጥራይ",
+      "subfamily": "Regular",
+      "full_name": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት ጥራይ Regular",
+      "postscript_name": "----Regular",
+      "family_display": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት ጥራይ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት ጥራይ",
+          "subfamily": "Regular",
+          "full_name": "ግእዝ ኢድ_ጽሑፍ ፍላጻታት ጥራይ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsazega/Tsazega-Regular.ttf",
+      "city": "Tsazega",
+      "file": "Tsazega-Regular.ttf",
+      "family": "ጸዐዘጋ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጸዐዘጋ ስሩዕ Regular",
+      "postscript_name": "--Regular",
+      "family_display": "ጸዐዘጋ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u00138\u0012–\u0012ÿ\u0013\u000b\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u00138\u0012–\u0012ÿ\u0013\u000b\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ጸዐዘጋ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጸዐዘጋ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaMendefera-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaMendefera-Regular.ttf",
+      "family": "ጾሮና መንደፈራ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና መንደፈራ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና መንደፈራ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና መንደፈራ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና መንደፈራ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaMaimne-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaMaimne-Regular.ttf",
+      "family": "ጾሮና ማይምነ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ማይምነ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ማይምነ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat1-lang0": {
+          "family": "\u0013>\u0012.\u0012ì\u0000 \u0012\u001b\u0012Ì\u0012\u001d\u0012ê\u0000 \u00125\u0012)\u0012’",
+          "subfamily": "Regular",
+          "full_name": "\u0013>\u0012.\u0012ì\u0000 \u0012\u001b\u0012Ì\u0012\u001d\u0012ê\u0000 \u00125\u0012)\u0012’\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ጾሮና ማይምነ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ማይምነ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaBarentu-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaBarentu-Regular.ttf",
+      "family": "ጾሮና ባረንቱ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ባረንቱ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ባረንቱ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ባረንቱ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ባረንቱ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaMassawa-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaMassawa-Regular.ttf",
+      "family": "ጾሮና ባጽዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ባጽዕ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ባጽዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ባጽዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ባጽዕ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaTeseney-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaTeseney-Regular.ttf",
+      "family": "ጾሮና ተሰነይ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ተሰነይ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ተሰነይ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ተሰነይ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ተሰነይ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaNefasit-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaNefasit-Regular.ttf",
+      "family": "ጾሮና ነፋሲት ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ነፋሲት ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ነፋሲት ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ነፋሲት ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ነፋሲት ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaNakfa-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaNakfa-Regular.ttf",
+      "family": "ጾሮና ናቅፋ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ናቅፋ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ናቅፋ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ናቅፋ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ናቅፋ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaAsmara-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaAsmara-Regular.ttf",
+      "family": "ጾሮና ኣስመራ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ኣስመራ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ኣስመራ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ኣስመራ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ኣስመራ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaAsmat-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaAsmat-Regular.ttf",
+      "family": "ጾሮና ኣስማጥ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ኣስማጥ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ኣስማጥ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat0-lang0": {
+          "family": "ጾሮና ኣስማጥ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ኣስማጥ ስሩዕ Regular"
+        },
+        "plat1-lang85": {
+          "family": "\u0013>\u0012.\u0012\u0000 \u0012\u00125\u0012\u001b\u0013%\u0000 \u00125\u0012)\u0012",
+          "subfamily": "Regular",
+          "full_name": "\u0013>\u0012.\u0012\u0000 \u0012\u00125\u0012\u001b\u0013%\u0000 \u00125\u0012)\u0012\u0000 \u0000R\u0000e\u0000g\u0000u\u0000l\u0000a\u0000r"
+        },
+        "plat3-lang1033": {
+          "family": "ጾሮና ኣስማጥ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ኣስማጥ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaKeren-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaKeren-Regular.ttf",
+      "family": "ጾሮና ከረን ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ከረን ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ከረን ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ከረን ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ከረን ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaAssab-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaAssab-Regular.ttf",
+      "family": "ጾሮና ዓሰብ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ዓሰብ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ዓሰብ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ዓሰብ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ዓሰብ ስሩዕ Regular"
+        }
+      }
+    },
+    {
+      "path": "fonts/Tsorona/TsoronaGhinda-Regular.ttf",
+      "city": "Tsorona",
+      "file": "TsoronaGhinda-Regular.ttf",
+      "family": "ጾሮና ጊንዳዕ ስሩዕ",
+      "subfamily": "Regular",
+      "full_name": "ጾሮና ጊንዳዕ ስሩዕ Regular",
+      "postscript_name": "---Regular",
+      "family_display": "ጾሮና ጊንዳዕ ስሩዕ",
+      "subfamily_display": "Regular",
+      "localized": {
+        "plat3-lang1033": {
+          "family": "ጾሮና ጊንዳዕ ስሩዕ",
+          "subfamily": "Regular",
+          "full_name": "ጾሮና ጊንዳዕ ስሩዕ Regular"
+        }
+      }
+    }
+  ]
+}
