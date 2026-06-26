@@ -645,15 +645,14 @@
     border-radius: var(--radius);
     background: var(--surface);
     box-shadow: 0 6px 20px rgba(28, 31, 42, 0.06);
+   border-color: color-mix(in srgb, var(--warm) 15%, var(--border));
   }
 
-  .info-card--license {
-    border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  .info-card:hover{
+ background: var(--surface-tint);
+  
+    border-color: color-mix(in srgb, var(--accent) 95%, var(--border));
     background: var(--surface-tint);
-  }
-
-  .info-card--about {
-    border-color: color-mix(in srgb, var(--warm) 35%, var(--border));
   }
 
   .info-card__eyebrow {
@@ -663,7 +662,11 @@
     text-transform: uppercase;
   }
 
-    .info-card__eyebrow_lg {
+    .info-card__eyebrow_sm {
+    color: var(--accent-strong);
+  }
+
+  .info-card__eyebrow_lg {
     color: var(--accent-strong);
     font-size: 1rem;
     font-weight: 850;
