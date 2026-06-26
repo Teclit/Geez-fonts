@@ -1,7 +1,7 @@
 "use strict";
 
 const DEFAULT_TEXT = "ሰላም ብጾት";
-const DEFAULT_SIZE = 52;
+const DEFAULT_SIZE = 50;
 const STORAGE_KEY = "geez-font-browser:v2";
 
 const state = {
@@ -943,7 +943,7 @@ function getPreviewText() {
 function parseGeezAlphabet(source) {
   const groups = [];
   const objectPattern =
-    /(?:^|,)\s*{\s*geez:\s*\[([\s\S]*?)\],\s*latinTransliteration:\s*\[([\s\S]*?)\],\s*phoneticGroup:\s*"([^"]+)",\s*order:\s*(\d+)/g;
+    /{\s*geez:\s*\[([\s\S]*?)\],\s*latinTransliteration:\s*\[([\s\S]*?)\],\s*phoneticGroup:\s*"([^"]+)",\s*order:\s*(\d+)/g;
 
   for (const match of String(source).matchAll(objectPattern)) {
     groups.push({
