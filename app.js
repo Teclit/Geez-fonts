@@ -1,7 +1,7 @@
 "use strict";
 
 const DEFAULT_TEXT = "ሰላም ብጾት";
-const DEFAULT_SIZE = 50;
+const DEFAULT_SIZE = 100;
 const STORAGE_KEY = "geez-font-browser:v2";
 
 const state = {
