@@ -306,13 +306,17 @@ async function renderDownloadStats() {
 
   renderDownloadCount(getStoredDownloadTotal());
 
+  if (!canUseApiRoutes()) {
+    return;
+  }
+
   try {
     const response = await fetch("/api/download-stats", {
       headers: { Accept: "application/json" },
     });
 
     if (!response.ok) {
-      throw new Error("Download stats are not available.");
+      return;
     }
 
     const stats = await response.json();
@@ -326,7 +330,7 @@ async function renderDownloadStats() {
     saveStoredDownloadTotal(nextTotal);
     renderDownloadCount(nextTotal);
   } catch (error) {
-    console.warn(error);
+    console.warn("Download stats are not available.", error);
   }
 }
 
@@ -1070,6 +1074,10 @@ function getDownloadUrl(font) {
     return "#";
   }
 
+  if (!canUseApiRoutes()) {
+    return path;
+  }
+
   return `/api/download?file=${encodeURIComponent(path)}`;
 }
 
@@ -1112,6 +1120,14 @@ function saveStoredDownloadTotal(total) {
 function toDisplayCount(value) {
   const number = Number(value);
   return Number.isFinite(number) && number >= START_TOTAL ? Math.floor(number) : START_TOTAL;
+}
+
+function canUseApiRoutes() {
+  if (window.location.protocol === "file:") {
+    return false;
+  }
+
+  return !["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
 }
 
 function isDownloadableFontPath(path) {

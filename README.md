@@ -64,6 +64,8 @@ http://127.0.0.1:8000/index.html
 
 A local server is recommended because the preview app loads `assets/data/fonts.min.json`, `assets/data/city_name.json`, and `assets/data/geez.ts` with `fetch()`.
 
+Static preview servers such as VS Code Live Server only serve files. In that mode, the frontend downloads `.ttf` files directly and keeps the visible download count in browser storage.
+
 For local testing of the Vercel API routes, run Vercel's local runtime:
 
 ```powershell
