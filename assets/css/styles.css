@@ -373,9 +373,10 @@
 
   .stat__value {
     color: var(--text-strong);
-    font-size: 1.5rem;
+    font-size: clamp(1.05rem, 1.6vw, 1.5rem);
     font-weight: 850;
     line-height: 1;
+    white-space: nowrap;
   }
 
   .stat__label {

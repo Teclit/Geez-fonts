@@ -340,8 +340,9 @@ function renderDownloadCount(total) {
   }
 
   const displayTotal = Math.max(toDisplayCount(total), START_TOTAL);
+  const overTotal = toOverCount(displayTotal);
   elements.downloadCount.textContent =
-    displayTotal <= START_TOTAL ? `${START_TOTAL}+` : formatCount(displayTotal);
+    `Over ${formatCount(overTotal)}`;
   elements.downloadCountStat.setAttribute(
     "aria-label",
     `${elements.downloadCount.textContent} downloads`
@@ -1120,6 +1121,11 @@ function saveStoredDownloadTotal(total) {
 function toDisplayCount(value) {
   const number = Number(value);
   return Number.isFinite(number) && number >= START_TOTAL ? Math.floor(number) : START_TOTAL;
+}
+
+function toOverCount(value) {
+  const displayTotal = toDisplayCount(value);
+  return Math.max(START_TOTAL, Math.floor(displayTotal / 10) * 10);
 }
 
 function canUseApiRoutes() {
