@@ -87,13 +87,13 @@ displayTotalDownloads = 1000 + rawTotalDownloads
 perFont[file].displayDownloads = 1000 + perFont[file].downloads
 ```
 
-Download buttons point to the real `.ttf` files so fonts stay downloadable even if tracking fails. On click, the browser also pings the tracking API without blocking the download:
+Download links use the API route:
 
 ```text
-/api/download?file=fonts/Asmara/AsmaraSansGeez-Regular.ttf&trackOnly=1
+/api/download?file=fonts/Asmara/AsmaraSansGeez-Regular.ttf
 ```
 
-The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid direct requests without `trackOnly=1` increment the Blob JSON when possible and redirect with HTTP 302 to the real font file under `fonts/`.
+The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid requests read `download-counts.json`, increment the counters, write the JSON back to Vercel Blob when credentials are configured, and redirect with HTTP 302 to the real font file under `fonts/`.
 
 Stats are available at:
 

@@ -12,27 +12,18 @@ module.exports = async function handler(req, res) {
 
   const requestUrl = getRequestUrl(req);
   const file = getQueryValue(req, requestUrl, "file");
-  const trackOnly = ["1", "true"].includes(getQueryValue(req, requestUrl, "trackOnly"));
 
   if (!isValidFontPath(file)) {
     sendJson(res, { error: "Invalid font file." }, 400);
     return;
   }
 
-  let tracked = false;
-
   if (hasBlobCredentials()) {
     try {
       await updateStats((stats, now) => incrementStats(stats, file, now));
-      tracked = true;
     } catch (error) {
       console.error("Unable to update download counts.", error);
     }
-  }
-
-  if (trackOnly) {
-    sendJson(res, { ok: true, tracked });
-    return;
   }
 
   redirectToFont(res, file);

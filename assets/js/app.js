@@ -585,7 +585,6 @@ function createFontCard(font) {
 
     if (isDownloadableFontPath(font.path)) {
       incrementVisibleDownloadCount();
-      trackFontDownload(font);
     }
   });
 
@@ -1061,32 +1060,7 @@ function getDownloadUrl(font) {
     return "#";
   }
 
-  return path;
-}
-
-function getDownloadTrackingUrl(font) {
-  const path = font?.path || "";
-
-  if (!isDownloadableFontPath(path)) {
-    return "";
-  }
-
-  return `/api/download?file=${encodeURIComponent(path)}&trackOnly=1`;
-}
-
-function trackFontDownload(font) {
-  const url = getDownloadTrackingUrl(font);
-
-  if (!url) {
-    return;
-  }
-
-  fetch(url, {
-    cache: "no-store",
-    keepalive: true,
-  }).catch((error) => {
-    console.warn("Download count update failed.", error);
-  });
+  return `/api/download?file=${encodeURIComponent(path)}`;
 }
 
 function incrementVisibleDownloadCount() {
