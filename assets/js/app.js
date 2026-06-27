@@ -4,6 +4,7 @@ const DEFAULT_TEXT = "ሰላም ብጾት";
 const DEFAULT_SIZE = 100;
 const START_TOTAL = 1000;
 const STORAGE_KEY = "geez-font-browser:v2";
+const DOWNLOAD_TOTAL_KEY = "geez-font-browser:download-total:v1";
 const DATA_PATHS = {
   fonts: "assets/data/fonts.min.json",
   cityNames: "assets/data/city_name.json",
@@ -303,9 +304,7 @@ async function renderDownloadStats() {
     return;
   }
 
-  elements.downloadCount.textContent = `${START_TOTAL}+`;
-  elements.downloadCountStat.setAttribute("aria-label", `${START_TOTAL}+ downloads`);
-  elements.downloadCountStat.hidden = false;
+  renderDownloadCount(getStoredDownloadTotal());
 
   try {
     const response = await fetch("/api/download-stats", {
@@ -323,16 +322,27 @@ async function renderDownloadStats() {
       throw new Error("Download stats response is invalid.");
     }
 
-    elements.downloadCount.textContent =
-      displayTotal <= START_TOTAL ? `${START_TOTAL}+` : formatCount(displayTotal);
-    elements.downloadCountStat.setAttribute(
-      "aria-label",
-      `${elements.downloadCount.textContent} downloads`
-    );
-    elements.downloadCountStat.hidden = false;
+    const nextTotal = Math.max(displayTotal, getStoredDownloadTotal());
+    saveStoredDownloadTotal(nextTotal);
+    renderDownloadCount(nextTotal);
   } catch (error) {
     console.warn(error);
   }
+}
+
+function renderDownloadCount(total) {
+  if (!elements.downloadCountStat || !elements.downloadCount) {
+    return;
+  }
+
+  const displayTotal = Math.max(toDisplayCount(total), START_TOTAL);
+  elements.downloadCount.textContent =
+    displayTotal <= START_TOTAL ? `${START_TOTAL}+` : formatCount(displayTotal);
+  elements.downloadCountStat.setAttribute(
+    "aria-label",
+    `${elements.downloadCount.textContent} downloads`
+  );
+  elements.downloadCountStat.hidden = false;
 }
 
 function renderCopyrightYears() {
@@ -1068,17 +1078,40 @@ function incrementVisibleDownloadCount() {
     return;
   }
 
-  const currentCount = parseDisplayCount(elements.downloadCount.textContent);
+  const currentCount = Math.max(
+    parseDisplayCount(elements.downloadCount.textContent),
+    getStoredDownloadTotal()
+  );
   const nextCount = Math.max(currentCount, START_TOTAL) + 1;
 
-  elements.downloadCount.textContent = formatCount(nextCount);
-  elements.downloadCountStat.setAttribute("aria-label", `${elements.downloadCount.textContent} downloads`);
-  elements.downloadCountStat.hidden = false;
+  saveStoredDownloadTotal(nextCount);
+  renderDownloadCount(nextCount);
 }
 
 function parseDisplayCount(value) {
   const number = Number(String(value).replace(/[^0-9]/g, ""));
-  return Number.isFinite(number) ? number : START_TOTAL;
+  return toDisplayCount(number);
+}
+
+function getStoredDownloadTotal() {
+  try {
+    return toDisplayCount(localStorage.getItem(DOWNLOAD_TOTAL_KEY));
+  } catch (error) {
+    return START_TOTAL;
+  }
+}
+
+function saveStoredDownloadTotal(total) {
+  try {
+    localStorage.setItem(DOWNLOAD_TOTAL_KEY, String(toDisplayCount(total)));
+  } catch (error) {
+    console.warn("Unable to save local download total.", error);
+  }
+}
+
+function toDisplayCount(value) {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= START_TOTAL ? Math.floor(number) : START_TOTAL;
 }
 
 function isDownloadableFontPath(path) {

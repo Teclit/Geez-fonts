@@ -70,11 +70,11 @@ For local testing of the Vercel API routes, run Vercel's local runtime:
 npx vercel dev
 ```
 
-If Blob credentials are not configured locally, font downloads still work and the stats API returns the initialized `1000+` display count.
+If Blob credentials are not configured locally, the API writes a local `download-counts.json` file in the project root so refreshes keep the incremented count during development. That file is ignored by git.
 
 ## Download Tracking
 
-Downloads are tracked by Vercel API functions instead of writing files into the deployed project. Vercel's runtime filesystem is read-only and not persistent, so the counters live in Vercel Blob at:
+Downloads are tracked by Vercel API functions. In production, do not write counters into the deployed project folder: Vercel's runtime filesystem is read-only and not persistent. The production counters live in Vercel Blob at:
 
 ```text
 download-counts.json
@@ -93,7 +93,7 @@ Download links use the API route:
 /api/download?file=fonts/Asmara/AsmaraSansGeez-Regular.ttf
 ```
 
-The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid requests read `download-counts.json`, increment the counters, write the JSON back to Vercel Blob when credentials are configured, and redirect with HTTP 302 to the real font file under `fonts/`.
+The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid requests read `download-counts.json`, increment the counters, write the JSON back to Vercel Blob when credentials are configured, and redirect with HTTP 302 to the real font file under `fonts/`. When running locally without Blob credentials, the same JSON schema is written to the ignored local `download-counts.json` file.
 
 Stats are available at:
 
@@ -101,13 +101,13 @@ Stats are available at:
 /api/download-stats
 ```
 
-The frontend fetches this endpoint and shows the total downloads count when available. If the endpoint fails, the page keeps showing `1000+`.
+The frontend fetches this endpoint and shows the total downloads count when available. It also stores the visible count in browser storage after a click, so the number does not reset on refresh if the stats endpoint is unavailable or returns the default value.
 
 ### Vercel Blob Setup
 
 The API functions use Vercel Blob through direct `fetch()` calls, so this project does not need a `package.json` or `@vercel/blob` dependency.
 
-In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through environment variables such as `BLOB_READ_WRITE_TOKEN`. If credentials are missing, tracking is skipped and the font download still continues.
+In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through environment variables such as `BLOB_READ_WRITE_TOKEN`. If credentials are missing in production, global tracking is skipped and the font download still continues.
 
 For local API testing, pull the environment variables after connecting storage:
 

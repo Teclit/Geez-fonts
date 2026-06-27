@@ -1,5 +1,6 @@
 .idea
 .vscode
+/download-counts.json
 .EnglishTigrigna/
 /EnglishTigrigna/AdvancedEnglishTigrinyaDictionary.json
 /EnglishTigrigna/help.html

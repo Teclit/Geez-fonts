@@ -1,5 +1,9 @@
+const fs = require("node:fs/promises");
+const path = require("node:path");
+
 const START_TOTAL = 1000;
 const COUNTS_PATH = "download-counts.json";
+const LOCAL_COUNTS_PATH = path.join(process.cwd(), COUNTS_PATH);
 const BLOB_ACCESS = process.env.BLOB_ACCESS === "public" ? "public" : "private";
 const BLOB_API_VERSION = "12";
 const MAX_WRITE_ATTEMPTS = 3;
@@ -18,15 +22,13 @@ module.exports = async function handler(req, res) {
     return;
   }
 
-  if (hasBlobCredentials()) {
-    try {
-      await updateStats((stats, now) => incrementStats(stats, file, now));
-    } catch (error) {
-      console.error("Unable to update download counts.", error);
-    }
+  try {
+    await updateStats((stats, now) => incrementStats(stats, file, now));
+  } catch (error) {
+    console.error("Unable to update download counts.", error);
   }
 
-  redirectToFont(res, file);
+  redirectToFont(res, file, requestUrl);
 };
 
 function getRequestUrl(req) {
@@ -40,8 +42,9 @@ function getQueryValue(req, requestUrl, name) {
   return Array.isArray(value) ? value[0] || "" : String(value || "");
 }
 
-function redirectToFont(res, file) {
-  const location = `/${file.split("/").map(encodeURIComponent).join("/")}`;
+function redirectToFont(res, file, requestUrl) {
+  const encodedPath = file.split("/").map(encodeURIComponent).join("/");
+  const location = new URL(`/${encodedPath}`, requestUrl.origin).toString();
 
   res.writeHead(302, {
     Location: location,
@@ -96,7 +99,7 @@ async function readStats(now) {
   const auth = getBlobAuth();
 
   if (!auth) {
-    return { stats: createEmptyStats(now), etag: "" };
+    return { stats: await readLocalStats(now), etag: "" };
   }
 
   const response = await fetch(getBlobObjectUrl(auth.storeId), {
@@ -132,6 +135,7 @@ async function writeStats(stats, etag) {
   const auth = getBlobAuth();
 
   if (!auth) {
+    await writeLocalStats(stats);
     return;
   }
 
@@ -159,6 +163,36 @@ async function writeStats(stats, etag) {
   if (!response.ok) {
     throw new Error(`Blob write failed with HTTP ${response.status}`);
   }
+}
+
+async function readLocalStats(now) {
+  if (!canUseLocalStatsFile()) {
+    return createEmptyStats(now);
+  }
+
+  try {
+    const text = await fs.readFile(LOCAL_COUNTS_PATH, "utf8");
+    return normalizeStats(JSON.parse(text), now);
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return createEmptyStats(now);
+    }
+
+    if (error instanceof SyntaxError) {
+      console.error("Local download-counts.json is invalid. Reinitializing it.", error);
+      return createEmptyStats(now);
+    }
+
+    throw error;
+  }
+}
+
+async function writeLocalStats(stats) {
+  if (!canUseLocalStatsFile()) {
+    return;
+  }
+
+  await fs.writeFile(LOCAL_COUNTS_PATH, `${JSON.stringify(stats, null, 2)}\n`, "utf8");
 }
 
 function incrementStats(stats, file, now) {
@@ -254,31 +288,27 @@ function isIsoDateString(value) {
   return typeof value === "string" && !Number.isNaN(Date.parse(value));
 }
 
-function hasBlobCredentials() {
-  return Boolean(getBlobAuth());
-}
-
 function getBlobAuth() {
+  const oidcToken = readEnv("VERCEL_OIDC_TOKEN");
+  const oidcStoreId = normalizeStoreId(readEnv("BLOB_STORE_ID"));
+
+  if (oidcToken && oidcStoreId) {
+    return { token: oidcToken, storeId: oidcStoreId };
+  }
+
   const readWriteToken = readEnv("BLOB_READ_WRITE_TOKEN");
 
   if (readWriteToken) {
-    const storeId = readEnv("BLOB_STORE_ID") || parseStoreIdFromReadWriteToken(readWriteToken);
+    const storeId = normalizeStoreId(
+      readEnv("BLOB_STORE_ID") || parseStoreIdFromReadWriteToken(readWriteToken)
+    );
 
-    if (!storeId) {
-      return null;
+    if (storeId) {
+      return {
+        token: readWriteToken,
+        storeId,
+      };
     }
-
-    return {
-      token: readWriteToken,
-      storeId,
-    };
-  }
-
-  const oidcToken = readEnv("VERCEL_OIDC_TOKEN");
-  const storeId = readEnv("BLOB_STORE_ID");
-
-  if (oidcToken && storeId) {
-    return { token: oidcToken, storeId };
   }
 
   return null;
@@ -288,9 +318,17 @@ function parseStoreIdFromReadWriteToken(token) {
   return token.split("_")[3] || "";
 }
 
+function normalizeStoreId(storeId) {
+  return storeId.startsWith("store_") ? storeId.slice("store_".length) : storeId;
+}
+
 function readEnv(name) {
   const value = process.env[name];
   return typeof value === "string" && value.trim() ? value.trim() : "";
+}
+
+function canUseLocalStatsFile() {
+  return !readEnv("VERCEL");
 }
 
 function getBlobObjectUrl(storeId) {
