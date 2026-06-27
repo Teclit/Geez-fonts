@@ -2,7 +2,7 @@
 """
 Scan the ./fonts directory for .ttf files and output a JSON manifest.
 
-Default output: fonts.json at project root with extended fields.
+Default output: assets/data/fonts.json with extended fields.
 Options:
   --minimal      Only include: path, city, file, family, subfamily, full_name
   --fields K,... Custom comma-separated field list to include
@@ -20,7 +20,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 FONTS_DIR = ROOT / "fonts"
-OUTPUT = ROOT / "fonts.json"
+OUTPUT = ROOT / "assets" / "data" / "fonts.json"
 
 NAME_IDS = {
     1: "family",
@@ -134,7 +134,12 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Scan fonts and emit JSON manifest.")
     p.add_argument("--minimal", action="store_true", help="Only keep path, city, file, family, subfamily, full_name")
     p.add_argument("--fields", type=str, default="", help="Comma-separated list of fields to include")
-    p.add_argument("--output", type=Path, default=OUTPUT, help="Output JSON path (default: fonts.json)")
+    p.add_argument(
+        "--output",
+        type=Path,
+        default=OUTPUT,
+        help="Output JSON path (default: assets/data/fonts.json)",
+    )
     return p.parse_args()
 
 
@@ -153,6 +158,8 @@ def main() -> None:
 
     if fields:
         data = filter_fields(data, fields)
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
 
     with args.output.open("w", encoding="utf-8") as f:
         json.dump({"fonts": data}, f, ensure_ascii=False, indent=2)

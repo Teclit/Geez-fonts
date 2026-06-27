@@ -3,6 +3,11 @@
 const DEFAULT_TEXT = "ሰላም ብጾት";
 const DEFAULT_SIZE = 100;
 const STORAGE_KEY = "geez-font-browser:v2";
+const DATA_PATHS = {
+  fonts: "assets/data/fonts.min.json",
+  cityNames: "assets/data/city_name.json",
+  geezAlphabet: "assets/data/geez.ts",
+};
 
 const state = {
   fonts: [],
@@ -42,9 +47,9 @@ async function init() {
 
   try {
     const [fontsConfig, cityMap, geezSource] = await Promise.all([
-      fetchJson("fonts.min.json"),
-      fetchJson("city_name.json"),
-      fetchText("data/geez.ts").catch(() => ""),
+      fetchJson(DATA_PATHS.fonts),
+      fetchJson(DATA_PATHS.cityNames),
+      fetchText(DATA_PATHS.geezAlphabet).catch(() => ""),
     ]);
 
     state.fonts = normalizeFonts(Array.isArray(fontsConfig.fonts) ? fontsConfig.fonts : []);

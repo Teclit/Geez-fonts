@@ -1,6 +1,6 @@
 @font-face {
   font-family: "AsmaraSansGeez";
-  src: url("fonts/Asmara/AsmaraSansGeez-Regular.ttf") format("truetype");
+  src: url("../../fonts/Asmara/AsmaraSansGeez-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "AsmaraSerifGeez";
-  src: url("fonts/Asmara/AsmaraSerifGeez-Regular.ttf") format("truetype");
+  src: url("../../fonts/Asmara/AsmaraSerifGeez-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
