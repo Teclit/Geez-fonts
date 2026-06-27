@@ -347,11 +347,19 @@
 
   .stats-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    justify-items: stretch;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 6.5rem), 1fr));
     gap: var(--space-3);
+    width: 100%;
   }
 
   .stat {
+    display: grid;
+    align-content: center;
+    width: 100%;
+    min-width: 0;
+    height: 100%;
     padding: var(--space-4);
     border: 1px solid var(--border);
     border-radius: var(--radius);

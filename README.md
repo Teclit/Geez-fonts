@@ -16,6 +16,9 @@ Free Geez Fonts helps individuals, schools, businesses, and community organizati
 ```text
 .
 |-- index.html
+|-- api/
+|   |-- download.js
+|   `-- download-stats.js
 |-- assets/
 |   |-- css/
 |   |   `-- styles.css
@@ -60,6 +63,59 @@ http://127.0.0.1:8000/index.html
 ```
 
 A local server is recommended because the preview app loads `assets/data/fonts.min.json`, `assets/data/city_name.json`, and `assets/data/geez.ts` with `fetch()`.
+
+For local testing of the Vercel API routes, run Vercel's local runtime:
+
+```powershell
+npx vercel dev
+```
+
+If Blob credentials are not configured locally, font downloads still work and the stats API returns the initialized `1000+` display count.
+
+## Download Tracking
+
+Downloads are tracked by Vercel API functions instead of writing files into the deployed project. Vercel's runtime filesystem is read-only and not persistent, so the counters live in Vercel Blob at:
+
+```text
+download-counts.json
+```
+
+The public display count starts at `1000`. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
+
+```text
+displayTotalDownloads = 1000 + rawTotalDownloads
+perFont[file].displayDownloads = 1000 + perFont[file].downloads
+```
+
+Download buttons point to the real `.ttf` files so fonts stay downloadable even if tracking fails. On click, the browser also pings the tracking API without blocking the download:
+
+```text
+/api/download?file=fonts/Asmara/AsmaraSansGeez-Regular.ttf&trackOnly=1
+```
+
+The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid direct requests without `trackOnly=1` increment the Blob JSON when possible and redirect with HTTP 302 to the real font file under `fonts/`.
+
+Stats are available at:
+
+```text
+/api/download-stats
+```
+
+The frontend fetches this endpoint and shows the total downloads count when available. If the endpoint fails, the page keeps showing `1000+`.
+
+### Vercel Blob Setup
+
+The API functions use Vercel Blob through direct `fetch()` calls, so this project does not need a `package.json` or `@vercel/blob` dependency.
+
+In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through environment variables such as `BLOB_READ_WRITE_TOKEN`. If credentials are missing, tracking is skipped and the font download still continues.
+
+For local API testing, pull the environment variables after connecting storage:
+
+```powershell
+npx vercel env pull .env.local
+```
+
+The API supports `BLOB_ACCESS=public` if you intentionally use a public Blob. Without that variable it writes and reads the counter as a private Blob.
 
 ## Regenerating Font Data
 
