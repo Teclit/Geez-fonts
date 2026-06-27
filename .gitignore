@@ -1,5 +1,6 @@
 .idea
 .vscode
+node_modules/
 .EnglishTigrigna/
 /EnglishTigrigna/AdvancedEnglishTigrinyaDictionary.json
 /EnglishTigrigna/help.html

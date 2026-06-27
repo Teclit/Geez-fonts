@@ -16,6 +16,9 @@ Free Geez Fonts helps individuals, schools, businesses, and community organizati
 ```text
 .
 |-- index.html
+|-- api/
+|   |-- download.js
+|   `-- download-stats.js
 |-- assets/
 |   |-- css/
 |   |   `-- styles.css
@@ -36,6 +39,7 @@ Free Geez Fonts helps individuals, schools, businesses, and community organizati
 |   `-- Non-Technical-Guide-Word-GoogleDocs.md
 |-- fonts/
 |   `-- <City>/*.ttf
+|-- package.json
 |-- scripts/
 |   |-- cities_enum.py
 |   `-- scan_fonts.py
@@ -60,6 +64,64 @@ http://127.0.0.1:8000/index.html
 ```
 
 A local server is recommended because the preview app loads `assets/data/fonts.min.json`, `assets/data/city_name.json`, and `assets/data/geez.ts` with `fetch()`.
+
+For local testing of the Vercel API routes, install the JavaScript dependency and run Vercel's local runtime:
+
+```powershell
+npm install
+npx vercel dev
+```
+
+If Blob credentials are not configured locally, the download API returns a clear JSON error instead of writing to disk.
+
+## Download Tracking
+
+Downloads are tracked by Vercel API functions instead of writing files into the deployed project. Vercel's runtime filesystem is read-only and not persistent, so the counters live in Vercel Blob at:
+
+```text
+download-counts.json
+```
+
+The public display count starts at `1000`. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
+
+```text
+displayTotalDownloads = 1000 + rawTotalDownloads
+perFont[file].displayDownloads = 1000 + perFont[file].downloads
+```
+
+Download links use the API route:
+
+```text
+/api/download?file=fonts/Asmara/AsmaraSansGeez-Regular.ttf
+```
+
+The API validates that `file` starts with `fonts/`, ends with `.ttf`, is relative, is not an HTTP URL, and does not contain `..`. Valid requests increment the Blob JSON and redirect with HTTP 302 to the real font file under `fonts/`.
+
+Stats are available at:
+
+```text
+/api/download-stats
+```
+
+The frontend fetches this endpoint and shows the total downloads count when available. If the endpoint fails, the count is hidden and the page keeps working.
+
+### Vercel Blob Setup
+
+Install the required package:
+
+```powershell
+npm install @vercel/blob
+```
+
+In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through environment variables such as `BLOB_READ_WRITE_TOKEN`.
+
+For local API testing, pull the environment variables after connecting storage:
+
+```powershell
+npx vercel env pull .env.local
+```
+
+The API supports `BLOB_ACCESS=public` if you intentionally use a public Blob. Without that variable it writes and reads the counter as a private Blob.
 
 ## Regenerating Font Data
 

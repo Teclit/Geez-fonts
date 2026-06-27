@@ -2,6 +2,7 @@
 
 const DEFAULT_TEXT = "ሰላም ብጾት";
 const DEFAULT_SIZE = 100;
+const START_TOTAL = 1000;
 const STORAGE_KEY = "geez-font-browser:v2";
 const DATA_PATHS = {
   fonts: "assets/data/fonts.min.json",
@@ -105,6 +106,8 @@ function cacheElements() {
 
   elements.cityCount = document.getElementById("cityCount");
   elements.fontCount = document.getElementById("fontCount");
+  elements.downloadCountStat = document.getElementById("downloadCountStat");
+  elements.downloadCount = document.getElementById("downloadCount");
   elements.appError = document.getElementById("appError");
   elements.toast = document.getElementById("toast");
   elements.copyrightYears = document.getElementById("copyrightYears");
@@ -292,6 +295,41 @@ function groupFontsByCity(fonts) {
 function renderGlobalStats() {
   elements.cityCount.textContent = String(state.byCity.size);
   elements.fontCount.textContent = String(state.fonts.length);
+  renderDownloadStats();
+}
+
+async function renderDownloadStats() {
+  if (!elements.downloadCountStat || !elements.downloadCount) {
+    return;
+  }
+
+  try {
+    const response = await fetch("/api/download-stats", {
+      headers: { Accept: "application/json" },
+    });
+
+    if (!response.ok) {
+      throw new Error("Download stats are not available.");
+    }
+
+    const stats = await response.json();
+    const displayTotal = Number(stats.displayTotalDownloads);
+
+    if (!Number.isFinite(displayTotal)) {
+      throw new Error("Download stats response is invalid.");
+    }
+
+    elements.downloadCount.textContent =
+      displayTotal <= START_TOTAL ? `${START_TOTAL}+` : formatCount(displayTotal);
+    elements.downloadCountStat.setAttribute(
+      "aria-label",
+      `${elements.downloadCount.textContent} downloads`
+    );
+    elements.downloadCountStat.hidden = false;
+  } catch (error) {
+    console.warn(error);
+    elements.downloadCountStat.hidden = true;
+  }
 }
 
 function renderCopyrightYears() {
@@ -534,12 +572,16 @@ function createFontCard(font) {
     className: "download-btn",
     text: "Download font",
     attrs: {
-      href: font.path || "#",
+      href: getDownloadUrl(font),
       download: font.file || "",
     },
   });
 
-  if (!font.path) {
+  downloadLink.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
+
+  if (!isDownloadableFontPath(font.path)) {
     downloadLink.setAttribute("aria-disabled", "true");
     downloadLink.addEventListener("click", (event) => event.preventDefault());
   }
@@ -1002,6 +1044,36 @@ function getFaceName(font) {
 function getFileType(path = "") {
   const extension = String(path).split(".").pop();
   return extension ? extension.toUpperCase() : "TTF";
+}
+
+function getDownloadUrl(font) {
+  const path = font?.path || "";
+
+  if (!isDownloadableFontPath(path)) {
+    return "#";
+  }
+
+  return `/api/download?file=${encodeURIComponent(path)}`;
+}
+
+function isDownloadableFontPath(path) {
+  return (
+    typeof path === "string" &&
+    path.startsWith("fonts/") &&
+    path.endsWith(".ttf") &&
+    !path.includes("..") &&
+    !path.includes("\\") &&
+    !path.includes("?") &&
+    !path.includes("#") &&
+    !path.startsWith("/") &&
+    !path.toLowerCase().startsWith("http")
+  );
+}
+
+function formatCount(value) {
+  return new Intl.NumberFormat(undefined, {
+    maximumFractionDigits: 0,
+  }).format(value);
 }
 
 function getFontFormat(path = "") {
