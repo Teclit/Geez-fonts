@@ -30,6 +30,7 @@ const state = {
   geezAlphabetText: DEFAULT_TEXT,
   favorites: new Set(),
   toastTimer: 0,
+  apiRoutesAvailable: false,
 };
 
 const elements = {};
@@ -61,7 +62,7 @@ async function init() {
     state.geezAlphabet = parseGeezAlphabet(geezSource);
     state.geezAlphabetText = getGeezAlphabetText() || DEFAULT_TEXT;
 
-    renderGlobalStats();
+    await renderGlobalStats();
     populateCitySelect();
     restoreControls();
     bindEvents();
@@ -293,10 +294,10 @@ function groupFontsByCity(fonts) {
   return byCity;
 }
 
-function renderGlobalStats() {
+async function renderGlobalStats() {
   elements.cityCount.textContent = String(state.byCity.size);
   elements.fontCount.textContent = String(state.fonts.length);
-  renderDownloadStats();
+  await renderDownloadStats();
 }
 
 async function renderDownloadStats() {
@@ -306,12 +307,13 @@ async function renderDownloadStats() {
 
   renderDownloadCount(getStoredDownloadTotal());
 
-  if (!canUseApiRoutes()) {
+  if (!shouldTryApiRoutes()) {
     return;
   }
 
   try {
     const response = await fetch("/api/download-stats", {
+      cache: "no-store",
       headers: { Accept: "application/json" },
     });
 
@@ -326,9 +328,10 @@ async function renderDownloadStats() {
       throw new Error("Download stats response is invalid.");
     }
 
-    const nextTotal = Math.max(displayTotal, getStoredDownloadTotal());
-    saveStoredDownloadTotal(nextTotal);
-    renderDownloadCount(nextTotal);
+    state.apiRoutesAvailable = true;
+    const apiTotal = toDisplayCount(displayTotal);
+    saveStoredDownloadTotal(apiTotal);
+    renderDownloadCount(apiTotal);
   } catch (error) {
     console.warn("Download stats are not available.", error);
   }
@@ -1133,7 +1136,15 @@ function canUseApiRoutes() {
     return false;
   }
 
-  return !["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+  return state.apiRoutesAvailable || !isLocalHost(window.location.hostname);
+}
+
+function shouldTryApiRoutes() {
+  return window.location.protocol !== "file:";
+}
+
+function isLocalHost(hostname) {
+  return ["localhost", "127.0.0.1", "::1"].includes(hostname);
 }
 
 function isDownloadableFontPath(path) {
