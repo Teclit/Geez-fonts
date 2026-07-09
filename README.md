@@ -42,6 +42,9 @@ Free Geez Fonts helps individuals, schools, businesses, and community organizati
 |-- scripts/
 |   |-- cities_enum.py
 |   `-- scan_fonts.py
+|-- lib/
+|   `-- download-stats-store.js
+|-- package.json
 |-- LICENSE.md
 `-- README.md
 ```
@@ -82,7 +85,7 @@ Downloads are tracked by Vercel API functions. In production, do not write count
 download-counts.json
 ```
 
-The public display count starts at `1000`. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
+The public display count starts at `1000` and increments by `1` for each tracked font download. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
 
 ```text
 displayTotalDownloads = 1000 + rawTotalDownloads
@@ -103,13 +106,13 @@ Stats are available at:
 /api/download-stats
 ```
 
-The frontend fetches this endpoint and shows the total downloads count when available. It also stores the visible count in browser storage after a click, so the number does not reset on refresh if the stats endpoint is unavailable or returns the default value.
+The frontend fetches this endpoint and shows the exact total downloads count when available. It also stores the visible count in browser storage after a click, so the number does not reset on refresh if the stats endpoint is unavailable or returns the default value.
 
 ### Vercel Blob Setup
 
-The API functions use Vercel Blob through direct `fetch()` calls, so this project does not need a `package.json` or `@vercel/blob` dependency.
+The API functions use the official `@vercel/blob` SDK.
 
-In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through environment variables such as `BLOB_READ_WRITE_TOKEN`. If credentials are missing in production, global tracking is skipped and the font download still continues.
+In Vercel, create or connect a Blob store to this project from the Storage tab. A private Blob store is recommended for `download-counts.json` because the browser does not need direct Blob access. Vercel provides the Blob credentials to the API functions through `BLOB_STORE_ID` and `VERCEL_OIDC_TOKEN`, or through `BLOB_READ_WRITE_TOKEN` for older/manual setups. If credentials are missing in production, global tracking is skipped and the font download still continues.
 
 For local API testing, pull the environment variables after connecting storage:
 

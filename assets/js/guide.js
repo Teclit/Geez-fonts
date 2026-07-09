@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   window.GeezTheme?.bindThemeToggle();
+  window.GeezDownloadStats?.render();
   renderCopyrightYears();
 });
 

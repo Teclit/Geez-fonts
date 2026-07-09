@@ -2,9 +2,7 @@
 
 const DEFAULT_TEXT = "ሰላም ብጾት";
 const DEFAULT_SIZE = 100;
-const START_TOTAL = 1000;
 const STORAGE_KEY = "geez-font-browser:v2";
-const DOWNLOAD_TOTAL_KEY = "geez-font-browser:download-total:v1";
 const DATA_PATHS = {
   fonts: "assets/data/fonts.min.json",
   cityNames: "assets/data/city_name.json",
@@ -30,7 +28,6 @@ const state = {
   geezAlphabetText: DEFAULT_TEXT,
   favorites: new Set(),
   toastTimer: 0,
-  apiRoutesAvailable: false,
 };
 
 const elements = {};
@@ -314,56 +311,7 @@ async function renderGlobalStats() {
 }
 
 async function renderDownloadStats() {
-  if (!elements.downloadCountStat || !elements.downloadCount) {
-    return;
-  }
-
-  renderDownloadCount(getStoredDownloadTotal());
-
-  if (!shouldTryApiRoutes()) {
-    return;
-  }
-
-  try {
-    const response = await fetch("/api/download-stats", {
-      cache: "no-store",
-      headers: { Accept: "application/json" },
-    });
-
-    if (!response.ok) {
-      return;
-    }
-
-    const stats = await response.json();
-    const displayTotal = Number(stats.displayTotalDownloads);
-
-    if (!Number.isFinite(displayTotal)) {
-      throw new Error("Download stats response is invalid.");
-    }
-
-    state.apiRoutesAvailable = true;
-    const apiTotal = toDisplayCount(displayTotal);
-    saveStoredDownloadTotal(apiTotal);
-    renderDownloadCount(apiTotal);
-  } catch (error) {
-    console.warn("Download stats are not available.", error);
-  }
-}
-
-function renderDownloadCount(total) {
-  if (!elements.downloadCountStat || !elements.downloadCount) {
-    return;
-  }
-
-  const displayTotal = Math.max(toDisplayCount(total), START_TOTAL);
-  const overTotal = toOverCount(displayTotal);
-  elements.downloadCount.textContent =
-    `Over ${formatCount(overTotal)}`;
-  elements.downloadCountStat.setAttribute(
-    "aria-label",
-    `${elements.downloadCount.textContent} downloads`
-  );
-  elements.downloadCountStat.hidden = false;
+  await window.GeezDownloadStats?.render();
 }
 
 function renderCopyrightYears() {
@@ -1092,97 +1040,15 @@ function getFileType(path = "") {
 function getDownloadUrl(font) {
   const path = font?.path || "";
 
-  if (!isDownloadableFontPath(path)) {
-    return "#";
-  }
-
-  if (!canUseApiRoutes()) {
-    return path;
-  }
-
-  return `/api/download?file=${encodeURIComponent(path)}`;
+  return window.GeezDownloadStats?.getDownloadUrl(path) || (isDownloadableFontPath(path) ? path : "#");
 }
 
 function incrementVisibleDownloadCount() {
-  if (!elements.downloadCountStat || !elements.downloadCount) {
-    return;
-  }
-
-  const currentCount = Math.max(
-    parseDisplayCount(elements.downloadCount.textContent),
-    getStoredDownloadTotal()
-  );
-  const nextCount = Math.max(currentCount, START_TOTAL) + 1;
-
-  saveStoredDownloadTotal(nextCount);
-  renderDownloadCount(nextCount);
-}
-
-function parseDisplayCount(value) {
-  const number = Number(String(value).replace(/[^0-9]/g, ""));
-  return toDisplayCount(number);
-}
-
-function getStoredDownloadTotal() {
-  try {
-    return toDisplayCount(localStorage.getItem(DOWNLOAD_TOTAL_KEY));
-  } catch (error) {
-    return START_TOTAL;
-  }
-}
-
-function saveStoredDownloadTotal(total) {
-  try {
-    localStorage.setItem(DOWNLOAD_TOTAL_KEY, String(toDisplayCount(total)));
-  } catch (error) {
-    console.warn("Unable to save local download total.", error);
-  }
-}
-
-function toDisplayCount(value) {
-  const number = Number(value);
-  return Number.isFinite(number) && number >= START_TOTAL ? Math.floor(number) : START_TOTAL;
-}
-
-function toOverCount(value) {
-  const displayTotal = toDisplayCount(value);
-  return Math.max(START_TOTAL, Math.floor(displayTotal / 10) * 10);
-}
-
-function canUseApiRoutes() {
-  if (window.location.protocol === "file:") {
-    return false;
-  }
-
-  return state.apiRoutesAvailable || !isLocalHost(window.location.hostname);
-}
-
-function shouldTryApiRoutes() {
-  return window.location.protocol !== "file:";
-}
-
-function isLocalHost(hostname) {
-  return ["localhost", "127.0.0.1", "::1"].includes(hostname);
+  window.GeezDownloadStats?.increment();
 }
 
 function isDownloadableFontPath(path) {
-  return (
-    typeof path === "string" &&
-    path.startsWith("fonts/") &&
-    path.endsWith(".ttf") &&
-    !path.includes("..") &&
-    !path.includes("\\") &&
-    !path.includes("?") &&
-    !path.includes("#") &&
-    !path.startsWith("/") &&
-    !path.toLowerCase().startsWith("http")
-  );
-}
-
-function formatCount(value) {
-  return new Intl.NumberFormat(undefined, {
-    maximumFractionDigits: 0,
-  }).format(value);
+  return Boolean(window.GeezDownloadStats?.isDownloadableFontPath(path));
 }
 
 function getFontFormat(path = "") {
