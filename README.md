@@ -108,6 +108,18 @@ Stats are available at:
 
 The frontend fetches this endpoint and shows the exact total downloads count when available. It also stores the visible count in browser storage after a click, so the number does not reset on refresh if the stats endpoint is unavailable or returns the default value.
 
+The stats endpoint also returns non-secret storage diagnostics. In production, persistence is working only when it includes:
+
+```json
+"storage": {
+  "mode": "blob",
+  "configured": true,
+  "persistent": true
+}
+```
+
+If it shows `"mode": "memory"`, the running Vercel deployment cannot see Blob credentials. Reconnect the Blob store to the project environments, then redeploy the project. If you used a custom environment-variable prefix in Vercel, the API also detects variables ending in `_BLOB_READ_WRITE_TOKEN` and `_BLOB_STORE_ID`.
+
 ### Vercel Blob Setup
 
 The API functions use the official `@vercel/blob` SDK.
