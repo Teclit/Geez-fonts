@@ -85,11 +85,11 @@ Downloads are tracked by Vercel API functions. In production, do not write count
 download-counts.json
 ```
 
-The public display count starts at `1000` and increments by `1` for each tracked font download. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
+The public display count starts at `1126` and increments by `1` for each tracked font download. The stored JSON keeps `rawTotalDownloads`, `displayTotalDownloads`, `perFont`, `daily`, `createdAt`, and `updatedAt`. Display totals are computed as:
 
 ```text
-displayTotalDownloads = 1000 + rawTotalDownloads
-perFont[file].displayDownloads = 1000 + perFont[file].downloads
+displayTotalDownloads = 1126 + rawTotalDownloads
+perFont[file].displayDownloads = 1126 + perFont[file].downloads
 ```
 
 Download links use the API route:

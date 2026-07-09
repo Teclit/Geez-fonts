@@ -1,6 +1,11 @@
 "use strict";
 
-const { incrementDownloadStats, isValidFontPath } = require("../lib/download-stats-store");
+const {
+  incrementDownloadStats,
+  isValidFontPath,
+  toPublicError,
+  toPublicStats,
+} = require("../lib/download-stats-store");
 
 module.exports = async function handler(req, res) {
   if (!["GET", "HEAD"].includes(req.method || "GET")) {
@@ -16,10 +21,36 @@ module.exports = async function handler(req, res) {
     return;
   }
 
+  const debug = getQueryValue(req, requestUrl, "debug") === "1";
+
   try {
-    await incrementDownloadStats(file);
+    const result = await incrementDownloadStats(file, {
+      oidcToken: getHeaderValue(req, "x-vercel-oidc-token"),
+    });
+
+    if (debug) {
+      sendJson(res, {
+        file,
+        persisted: result.persisted,
+        ...toPublicStats(result.stats, result.storage),
+      });
+      return;
+    }
   } catch (error) {
     console.error("Unable to update download counts.", error);
+
+    if (debug) {
+      sendJson(
+        res,
+        {
+          file,
+          error: "Unable to update download counts.",
+          details: toPublicError(error),
+        },
+        500
+      );
+      return;
+    }
   }
 
   redirectToFont(res, file, requestUrl);
@@ -33,6 +64,11 @@ function getRequestUrl(req) {
 
 function getQueryValue(req, requestUrl, name) {
   const value = req.query?.[name] ?? requestUrl.searchParams.get(name) ?? "";
+  return Array.isArray(value) ? value[0] || "" : String(value || "");
+}
+
+function getHeaderValue(req, name) {
+  const value = req.headers?.[name] ?? req.headers?.[name.toLowerCase()] ?? "";
   return Array.isArray(value) ? value[0] || "" : String(value || "");
 }
 

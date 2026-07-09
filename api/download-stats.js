@@ -1,6 +1,6 @@
 "use strict";
 
-const { readDownloadStats, toPublicStats } = require("../lib/download-stats-store");
+const { START_TOTAL, readDownloadStats, toPublicError, toPublicStats } = require("../lib/download-stats-store");
 
 module.exports = async function handler(req, res) {
   if (!["GET", "HEAD"].includes(req.method || "GET")) {
@@ -9,15 +9,18 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const { stats, storage } = await readDownloadStats();
+    const { stats, storage } = await readDownloadStats({
+      oidcToken: getHeaderValue(req, "x-vercel-oidc-token"),
+    });
     sendJson(res, toPublicStats(stats, storage));
   } catch (error) {
     console.error("Unable to read download stats.", error);
     sendJson(res, {
       error: "Unable to read download stats.",
-      startTotal: 1000,
+      details: toPublicError(error),
+      startTotal: START_TOTAL,
       rawTotalDownloads: 0,
-      displayTotalDownloads: 1000,
+      displayTotalDownloads: START_TOTAL,
       perFont: {},
       daily: {},
       updatedAt: new Date().toISOString(),
@@ -29,6 +32,11 @@ module.exports = async function handler(req, res) {
     });
   }
 };
+
+function getHeaderValue(req, name) {
+  const value = req.headers?.[name] ?? req.headers?.[name.toLowerCase()] ?? "";
+  return Array.isArray(value) ? value[0] || "" : String(value || "");
+}
 
 function sendJson(res, payload, status = 200) {
   res.writeHead(status, {

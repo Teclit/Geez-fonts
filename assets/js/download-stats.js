@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const START_TOTAL = 1000;
+  const START_TOTAL = 1126;
   const STORAGE_KEY = "geez-font-browser:download-total:v1";
   const REFRESH_DELAY_MS = 800;
 
