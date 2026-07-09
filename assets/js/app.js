@@ -136,11 +136,10 @@ async function fetchText(url) {
 }
 
 function hydratePreferences() {
-  const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
-  state.theme = prefersDark ? "dark" : "light";
+  state.theme = window.GeezTheme?.getInitialTheme() || "light";
 
   try {
-    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    const saved = window.GeezTheme?.readPreferences() || JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
 
     state.theme = saved.theme === "dark" || saved.theme === "light" ? saved.theme : state.theme;
     state.viewMode = saved.viewMode === "list" ? "list" : "grid";
@@ -174,7 +173,11 @@ function savePreferences() {
     favorites: Array.from(state.favorites),
   };
 
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(preferences));
+  if (window.GeezTheme) {
+    window.GeezTheme.writePreferences(preferences);
+  } else {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(preferences));
+  }
 }
 
 function restoreControls() {
@@ -232,11 +235,21 @@ function bindEvents() {
   elements.gridViewButton.addEventListener("click", () => setViewMode("grid"));
   elements.listViewButton.addEventListener("click", () => setViewMode("list"));
 
-  elements.themeToggle.addEventListener("click", () => {
-    state.theme = state.theme === "dark" ? "light" : "dark";
-    applyTheme();
-    savePreferences();
-  });
+  if (window.GeezTheme) {
+    state.theme = window.GeezTheme.bindThemeToggle({
+      initialTheme: state.theme,
+      onChange(theme) {
+        state.theme = theme;
+        savePreferences();
+      },
+    });
+  } else {
+    elements.themeToggle.addEventListener("click", () => {
+      state.theme = state.theme === "dark" ? "light" : "dark";
+      applyTheme();
+      savePreferences();
+    });
+  }
 
   elements.favoritesOnly.addEventListener("change", () => {
     state.favoritesOnly = elements.favoritesOnly.checked;
@@ -911,6 +924,11 @@ function syncViewButtons(viewMode) {
 }
 
 function applyTheme() {
+  if (window.GeezTheme) {
+    state.theme = window.GeezTheme.applyTheme(state.theme);
+    return;
+  }
+
   document.documentElement.dataset.theme = state.theme;
   elements.themeToggle.textContent = state.theme === "dark" ? "Light" : "Dark";
   elements.themeToggle.setAttribute("aria-pressed", String(state.theme === "dark"));
