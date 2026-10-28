@@ -34,14 +34,19 @@
     />
     <meta name="twitter:image" content="https://geez-fonts.vercel.app/assets/images/og-image-wide.png" />
 
-    <link rel="icon" href="data:," />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='40' fill='white'%3E%E1%8C%8D%3C/text%3E%3C/svg%3E" />
+    <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151719" media="(prefers-color-scheme: dark)" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/ui.js" defer></script>
     <script src="assets/js/download-stats.js" defer></script>
     <script src="assets/js/guide.js" defer></script>
   </head>
 
   <body class="guide-page">
+    <a class="skip-link" href="#guideContent">Skip to the guide</a>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
     <main class="app-shell guide-shell">
       <aside class="sidebar guide-sidebar" aria-label="Geez fonts guide navigation">
         <section class="brand-panel">
@@ -60,7 +65,8 @@
           <div class="brand-copy">
             <h1>Install and use Geez fonts</h1>
             <p>
-              Preview 188 Geez font files across 22 collections, download the exact
+              Preview <span data-stat="fonts">188</span> Geez font files across
+              <span data-stat="collections">22</span> collections, download the exact
               <code>.ttf</code> file you want, then install it for documents, design,
               or websites.
             </p>
@@ -76,11 +82,11 @@
               <span class="stat__label info-card__eyebrow_lg">Steps</span>
             </div>
             <div class="stat">
-              <span class="stat__value">188</span>
+              <span class="stat__value" data-stat="fonts">188</span>
               <span class="stat__label info-card__eyebrow_lg">Font files</span>
             </div>
             <div class="stat">
-              <span class="stat__value">22</span>
+              <span class="stat__value" data-stat="collections">22</span>
               <span class="stat__label info-card__eyebrow_lg">Collections</span>
             </div>
             <div id="downloadCountStat" class="stat">
@@ -107,7 +113,7 @@
           </nav>
         </details>
 
-        <details class="panel sample-panel accordion-panel" open>
+        <details class="panel sample-panel accordion-panel" data-collapse-mobile open>
           <summary class="panel-heading accordion-summary">
             <h2>Preview sample</h2>
           </summary>
@@ -132,12 +138,13 @@
             <span>Install and use Geez fonts</span>
           </h2>
           <div class="workspace-actions">
-            <a class="button button--quiet" href="index.html">Font browser</a>
-            <a class="button" href="#browse-download">Download steps</a>
+            <button id="expandAllButton" class="button button--quiet" type="button">Expand all</button>
+            <button id="collapseAllButton" class="button button--quiet" type="button">Collapse all</button>
+            <a class="button" href="index.html">Font browser</a>
           </div>
         </header>
 
-        <div class="guide-main">
+        <div id="guideContent" class="guide-main" tabindex="-1">
           <details class="panel accordion-panel guide-section" id="before-you-start" open>
             <summary class="panel-heading accordion-summary">
               <h2>Before You Start</h2>

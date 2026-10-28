@@ -40,14 +40,18 @@
     <meta name="twitter:image" content="https://geez-fonts.vercel.app/assets/images/og-image-wide.png" />
     <meta name="twitter:image:alt" content="Free Geez Fonts preview page" />
 
-    <link rel="icon" href="data:," />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='40' fill='white'%3E%E1%8C%8D%3C/text%3E%3C/svg%3E" />
+    <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151719" media="(prefers-color-scheme: dark)" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/ui.js" defer></script>
     <script src="assets/js/download-stats.js" defer></script>
     <script src="assets/js/app.js" defer></script>
   </head>
 
   <body>
+    <a class="skip-link" href="#fontWorkspace">Skip to fonts</a>
     <main class="app-shell">
       <aside class="sidebar" aria-label="Font choices for business documents">
         <section class="brand-panel">
@@ -69,6 +73,9 @@
               Find the best Geez fonts for Word documents, formal letters, reports, posters, websites, and business communication. Designed to help you create clean, readable, and culturally authentic content.
             </p>
             <div class="button-row brand-actions">
+              <a class="button jump-to-fonts" href="#fontWorkspace">
+                Browse fonts
+              </a>
               <a class="button button--secondary" href="geez_fonts_guide.html">
                 Installation guide
               </a>
@@ -95,11 +102,11 @@
 
         <details class="panel accordion-panel" open>
           <summary class="panel-heading accordion-summary">
-            <h5>Choose your font</h5>
+            <h2>Choose your font</h2>
             <span class="resultsSummary">0 fonts</span>
           </summary>
 
-          <form id="controlsForm" class="controls accordion-content" onsubmit="return false;">
+          <form id="controlsForm" class="controls accordion-content">
             <label class="field" for="citySelect">
               <span>Collection</span>
               <select id="citySelect"></select>
@@ -112,13 +119,19 @@
 
             <label class="field" for="textInput">
               <span>Your sample text</span>
-              <input id="textInput" type="text" value="ሰላም ብጾት" />
+              <input id="textInput" type="text" value="ሰላም ብጾት" autocomplete="off" spellcheck="false" />
             </label>
 
             <div class="search-row">
               <label class="field" for="searchInput">
-                <span>Find a font</span>
-                <input id="searchInput" type="search" placeholder="Font, collection, or file" />
+                <span>Find a font <kbd class="kbd-hint" aria-hidden="true">/</kbd></span>
+                <input
+                  id="searchInput"
+                  type="search"
+                  placeholder="Font, collection, or file"
+                  autocomplete="off"
+                  aria-keyshortcuts="/"
+                />
               </label>
 
               <button id="clearSearchButton" class="button button--quiet" type="button">
@@ -143,10 +156,12 @@
             </div>
 
             <fieldset class="segmented" aria-label="Display style">
-              <button id="gridViewButton" class="segmented__button is-active" type="button">
+              <button id="gridViewButton" class="segmented__button is-active" type="button" aria-pressed="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
                 Cards
               </button>
-              <button id="listViewButton" class="segmented__button" type="button">
+              <button id="listViewButton" class="segmented__button" type="button" aria-pressed="false">
+                <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
                 List
               </button>
             </fieldset>
@@ -193,7 +208,7 @@
           </div>
         </details>
 
-        <details class="panel sample-panel accordion-panel" aria-label="Quick samples" open>
+        <details class="panel sample-panel accordion-panel" aria-label="Quick samples" data-collapse-mobile open>
           <summary class="panel-heading accordion-summary">
             <h2>Sample styles</h2>
           </summary>
@@ -210,7 +225,7 @@
             </article>
           </div>
         </details>
-        <details class="panel accordion-panel info-panel" open>
+        <details class="panel accordion-panel info-panel" data-collapse-mobile open>
           <summary class="panel-heading accordion-summary">
             <h2>For your work</h2>
           </summary>
@@ -266,12 +281,12 @@
         </details>
       </aside>
 
-      <section class="workspace" aria-label="Font choices">
+      <section id="fontWorkspace" class="workspace" aria-label="Font choices" tabindex="-1">
         <header class="workspace-header">
           <h2><span class="kicker">Font collection</span><span id="cityFontCount" class="resultsSummary">0</span><span id="cityTitle">All Geez font options</span></h2>
           <div class="workspace-actions">
             <label class="check-field">
-              <input id="favoritesOnly" type="checkbox" />
+              <input id="favoritesOnly" type="checkbox" role="switch" />
               <span>Saved choices only</span>
             </label>
             <label class="check-field">
@@ -283,10 +298,21 @@
         <p id="appError" class="alert" role="alert" hidden></p>
 
         <div id="emptyState" class="empty-state" hidden>
-          No font choices match your search.
+          <p id="emptyStateMessage">No font choices match your search.</p>
+          <button id="emptyStateReset" class="button button--secondary" type="button">
+            Clear filters
+          </button>
         </div>
 
-        <div id="cityGrid" class="font-grid" aria-live="polite"></div>
+        <div id="cityGrid" class="font-grid" aria-busy="true">
+          <div class="skeleton-card" aria-hidden="true"></div>
+          <div class="skeleton-card" aria-hidden="true"></div>
+          <div class="skeleton-card" aria-hidden="true"></div>
+          <div class="skeleton-card" aria-hidden="true"></div>
+          <div class="skeleton-card" aria-hidden="true"></div>
+          <div class="skeleton-card" aria-hidden="true"></div>
+        </div>
+        <p id="resultsAnnouncer" class="visually-hidden" aria-live="polite"></p>
       </section>
     </main>
 

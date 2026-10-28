@@ -3,6 +3,7 @@
 const DEFAULT_TEXT = "ሰላም ብጾት";
 const DEFAULT_SIZE = 100;
 const STORAGE_KEY = "geez-font-browser:v2";
+const SEARCH_DEBOUNCE_MS = 120;
 const DATA_PATHS = {
   fonts: "assets/data/fonts.min.json",
   cityNames: "assets/data/city_name.json",
@@ -28,6 +29,7 @@ const state = {
   geezAlphabetText: DEFAULT_TEXT,
   favorites: new Set(),
   toastTimer: 0,
+  searchTimer: 0,
 };
 
 const elements = {};
@@ -43,7 +45,6 @@ async function init() {
   hydratePreferences();
   applyTheme();
   applyPreviewSize();
-  renderCopyrightYears();
 
   try {
     const [fontsConfig, cityMap, geezSource] = await Promise.all([
@@ -66,6 +67,8 @@ async function init() {
     renderSelectedCity({ preserveSelection: true });
   } catch (error) {
     console.error(error);
+    elements.cityGrid.replaceChildren();
+    elements.cityGrid.setAttribute("aria-busy", "false");
     showError(
       "We could not open the font collection. Please run this page from a local server and try again."
     );
@@ -95,6 +98,9 @@ function cacheElements() {
   elements.cityFontCount = document.getElementById("cityFontCount");
   elements.cityGrid = document.getElementById("cityGrid");
   elements.emptyState = document.getElementById("emptyState");
+  elements.emptyStateMessage = document.getElementById("emptyStateMessage");
+  elements.emptyStateReset = document.getElementById("emptyStateReset");
+  elements.resultsAnnouncer = document.getElementById("resultsAnnouncer");
   elements.resultsSummary = document.getElementsByClassName("resultsSummary")[0];
 
   elements.selectedCityBadge = document.getElementById("selectedCityBadge");
@@ -109,7 +115,6 @@ function cacheElements() {
   elements.downloadCount = document.getElementById("downloadCount");
   elements.appError = document.getElementById("appError");
   elements.toast = document.getElementById("toast");
-  elements.copyrightYears = document.getElementById("copyrightYears");
 }
 
 async function fetchJson(url) {
@@ -192,6 +197,8 @@ function restoreControls() {
 }
 
 function bindEvents() {
+  elements.controlsForm.addEventListener("submit", (event) => event.preventDefault());
+
   elements.citySelect.addEventListener("change", () => {
     renderSelectedCity({ preserveSelection: false });
   });
@@ -206,13 +213,38 @@ function bindEvents() {
   });
 
   elements.searchInput.addEventListener("input", () => {
+    window.clearTimeout(state.searchTimer);
+    state.searchTimer = window.setTimeout(() => {
+      renderSelectedCity({ preserveSelection: true });
+    }, SEARCH_DEBOUNCE_MS);
+  });
+
+  elements.searchInput.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && elements.searchInput.value) {
+      event.preventDefault();
+      clearSearch();
+    }
+  });
+
+  elements.clearSearchButton.addEventListener("click", clearSearch);
+
+  elements.emptyStateReset.addEventListener("click", () => {
+    elements.searchInput.value = "";
+    elements.favoritesOnly.checked = false;
+    elements.citySelect.value = "";
+    state.favoritesOnly = false;
     renderSelectedCity({ preserveSelection: true });
   });
 
-  elements.clearSearchButton.addEventListener("click", () => {
-    elements.searchInput.value = "";
-    renderSelectedCity({ preserveSelection: true });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "/" || event.ctrlKey || event.metaKey || event.altKey || isTypingTarget(event.target)) {
+      return;
+    }
+
+    event.preventDefault();
+    elements.searchInput.closest("details")?.setAttribute("open", "");
     elements.searchInput.focus();
+    elements.searchInput.select();
   });
 
   elements.sortSelect.addEventListener("change", () => {
@@ -265,6 +297,17 @@ function bindEvents() {
   elements.copyCssButton.addEventListener("click", copySelectedCss);
 }
 
+function clearSearch() {
+  window.clearTimeout(state.searchTimer);
+  elements.searchInput.value = "";
+  renderSelectedCity({ preserveSelection: true });
+  elements.searchInput.focus();
+}
+
+function isTypingTarget(target) {
+  return Boolean(target?.closest?.("input, select, textarea, [contenteditable='true']"));
+}
+
 function normalizeFonts(fonts) {
   return fonts.map((font, index) => {
     const id = font.path || `${font.city || "Unknown"}-${font.file || "font"}-${index}`;
@@ -314,18 +357,6 @@ async function renderDownloadStats() {
   await window.GeezDownloadStats?.render();
 }
 
-function renderCopyrightYears() {
-  if (!elements.copyrightYears) {
-    return;
-  }
-
-  const startYear = Number(elements.copyrightYears.dataset.startYear) || 2023;
-  const currentYear = new Date().getFullYear();
-
-  elements.copyrightYears.textContent =
-    currentYear > startYear ? `${startYear} - ${currentYear}` : String(startYear);
-}
-
 function populateCitySelect() {
   const allOption = createElement("option", {
     text: "All collections",
@@ -357,14 +388,35 @@ function renderSelectedCity(options = {}) {
   updateSelectedPanel();
   updateResults(baseFonts, visibleFonts);
 
-  elements.emptyState.textContent = state.alphabetPreview
+  elements.emptyStateMessage.textContent = state.alphabetPreview
     ? "No Geez alphabet groups found."
-    : "No font choices match your search.";
+    : getEmptyFontsMessage();
+  elements.emptyStateReset.hidden = state.alphabetPreview;
   elements.emptyState.hidden = state.alphabetPreview
     ? state.geezAlphabet.length > 0
     : visibleFonts.length > 0;
   elements.clearSearchButton.disabled = elements.searchInput.value.trim() === "";
+  elements.cityGrid.setAttribute("aria-busy", "false");
+  announceResults(visibleFonts);
   savePreferences();
+}
+
+function getEmptyFontsMessage() {
+  if (elements.favoritesOnly.checked && state.favorites.size === 0) {
+    return "You have not saved any fonts yet. Use “Save” on a font card to keep it here.";
+  }
+
+  const query = elements.searchInput.value.trim();
+
+  return query
+    ? `No fonts match “${query}”. Try another word or clear the filters.`
+    : "No font choices match your current options.";
+}
+
+function announceResults(visibleFonts) {
+  elements.resultsAnnouncer.textContent = state.alphabetPreview
+    ? `${state.geezAlphabet.length} alphabet groups shown.`
+    : `${visibleFonts.length} ${visibleFonts.length === 1 ? "font" : "fonts"} shown.`;
 }
 
 function getBaseFonts() {
@@ -524,7 +576,7 @@ function createFontCard(font) {
 
   const useButton = createElement("button", {
     className: "button button--secondary",
-    text: isSelected ? "Chosen" : "Try",
+    text: isSelected ? "✓ Chosen" : "Try",
     attrs: {
       type: "button",
       "aria-pressed": String(isSelected),
@@ -533,15 +585,16 @@ function createFontCard(font) {
 
   useButton.addEventListener("click", (event) => {
     event.stopPropagation();
-    selectFontById(font.id);
+    selectFontById(font.id, { announce: true });
   });
 
   const favoriteButton = createElement("button", {
-    className: "button button--quiet",
-    text: isFavorite ? "Saved" : "Save choice",
+    className: `button button--quiet favorite-toggle${isFavorite ? " is-saved" : ""}`,
+    text: isFavorite ? "★ Saved" : "☆ Save",
     attrs: {
       type: "button",
       "aria-pressed": String(isFavorite),
+      "aria-label": `${isFavorite ? "Remove" : "Save"} ${getFontLabel(font)}`,
     },
   });
 
@@ -552,10 +605,11 @@ function createFontCard(font) {
 
   const downloadLink = createElement("a", {
     className: "download-btn",
-    text: "Download font",
+    text: "↓ Download",
     attrs: {
       href: getDownloadUrl(font),
       download: font.file || "",
+      "aria-label": `Download ${getFontLabel(font)}`,
     },
   });
 
@@ -564,6 +618,7 @@ function createFontCard(font) {
 
     if (isDownloadableFontPath(font.path)) {
       incrementVisibleDownloadCount();
+      showToast(`Downloading ${font.file || getFontLabel(font)}…`);
     }
   });
 
@@ -577,13 +632,17 @@ function createFontCard(font) {
   card.append(header, sample, footer);
 
   card.addEventListener("click", () => {
-    selectFontById(font.id);
+    selectFontById(font.id, { announce: true });
   });
 
   card.addEventListener("keydown", (event) => {
+    if (event.target !== card) {
+      return;
+    }
+
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
-      selectFontById(font.id);
+      selectFontById(font.id, { announce: true });
     }
   });
 
@@ -630,8 +689,14 @@ function createAlphabetCard(group) {
       return;
     }
 
-    const tile = createElement("div", {
+    const latinText = group.latinTransliteration[index] || "";
+    const tile = createElement("button", {
       className: "alphabet-tile",
+      attrs: {
+        type: "button",
+        title: `Copy ${character}`,
+        "aria-label": `Copy ${character}${latinText ? ` (${latinText})` : ""}`,
+      },
     });
 
     const glyph = createElement("span", {
@@ -643,7 +708,12 @@ function createAlphabetCard(group) {
 
     const latin = createElement("span", {
       className: "alphabet-tile__latin",
-      text: group.latinTransliteration[index] || "",
+      text: latinText,
+    });
+
+    tile.addEventListener("click", async () => {
+      const copied = await copyText(character);
+      showToast(copied ? `Copied ${character}${latinText ? ` · ${latinText}` : ""}` : "We could not copy that letter.");
     });
 
     tile.append(glyph, latin);
@@ -654,11 +724,12 @@ function createAlphabetCard(group) {
   return card;
 }
 
-function selectFontById(fontId) {
+function selectFontById(fontId, options = {}) {
   if (!fontId || !state.fontIndex.has(fontId)) {
     return;
   }
 
+  const changed = state.selectedFontId !== fontId;
   state.selectedFontId = fontId;
 
   if (hasOption(elements.fontSelect, fontId)) {
@@ -667,6 +738,11 @@ function selectFontById(fontId) {
 
   updateSelectedPanel();
   savePreferences();
+
+  // On small screens the "Ready to use" panel is off-screen, so confirm the choice.
+  if (options.announce && changed && window.GeezUi?.isMobileViewport()) {
+    showToast(`Chosen: ${getFontLabel(state.fontIndex.get(fontId))}`);
+  }
 }
 
 function selectRandomFont() {
@@ -676,7 +752,13 @@ function selectRandomFont() {
   }
 
   const randomIndex = Math.floor(Math.random() * state.renderedFonts.length);
-  selectFontById(state.renderedFonts[randomIndex].id);
+  const font = state.renderedFonts[randomIndex];
+
+  selectFontById(font.id);
+  showToast(`Suggested: ${getFontLabel(font)}`);
+  document
+    .querySelector(`.font-card[data-font-id="${CSS.escape(font.id)}"]`)
+    ?.scrollIntoView({ behavior: window.GeezUi?.prefersReducedMotion() ? "auto" : "smooth", block: "nearest" });
 }
 
 function updateSelectedPanel() {
@@ -691,7 +773,7 @@ function updateSelectedPanel() {
     elements.selectedFontName.textContent = "Choose a font";
     elements.selectedFileName.textContent = "No download selected";
     elements.favoriteButton.disabled = true;
-    elements.favoriteButton.textContent = "Save choice";
+    elements.favoriteButton.textContent = "☆ Save choice";
     elements.favoriteButton.setAttribute("aria-pressed", "false");
     elements.copyCssButton.disabled = true;
     updateWorkspaceSelectionState();
@@ -706,7 +788,7 @@ function updateSelectedPanel() {
   elements.selectedFontName.textContent = getFontLabel(font);
   elements.selectedFileName.textContent = font.file || font.path || "Download file";
   elements.favoriteButton.disabled = false;
-  elements.favoriteButton.textContent = isFavorite ? "Saved" : "Save choice";
+  elements.favoriteButton.textContent = isFavorite ? "★ Saved" : "☆ Save choice";
   elements.favoriteButton.setAttribute("aria-pressed", String(isFavorite));
   elements.copyCssButton.disabled = false;
 
@@ -749,7 +831,7 @@ function highlightSelectedFontCard() {
     const useButton = card.querySelector(".font-card__actions .button--secondary");
 
     if (useButton) {
-      useButton.textContent = isSelected ? "Chosen" : "Try";
+      useButton.textContent = isSelected ? "✓ Chosen" : "Try";
       useButton.setAttribute("aria-pressed", String(isSelected));
     }
   });
@@ -760,10 +842,14 @@ function toggleFavorite(fontId) {
     return;
   }
 
+  const label = getFontLabel(state.fontIndex.get(fontId) || {});
+
   if (state.favorites.has(fontId)) {
     state.favorites.delete(fontId);
+    showToast(`Removed ${label} from saved choices.`);
   } else {
     state.favorites.add(fontId);
+    showToast(`Saved ${label}.`);
   }
 
   if (elements.favoritesOnly.checked && !state.favorites.has(fontId)) {
@@ -783,17 +869,22 @@ async function copySelectedCss() {
     return;
   }
 
-  const css = buildFontCss(font);
+  const copied = await copyText(buildFontCss(font));
+  showToast(copied ? "Website style copied." : "We could not copy the website style.");
+}
 
+async function copyText(value) {
   try {
-    await navigator.clipboard.writeText(css);
-    showToast("Website style copied.");
+    await navigator.clipboard.writeText(value);
+    return true;
   } catch (error) {
-    const copied = fallbackCopy(css);
-    showToast(copied ? "Website style copied." : "We could not copy the website style.");
+    // The Clipboard API is unavailable on insecure origins; fall back to a hidden textarea.
+    console.warn("Clipboard API failed, using fallback copy.", error);
+    return fallbackCopy(value);
   }
 }
 
+// Legacy copy path for browsers or origins without the async Clipboard API.
 function fallbackCopy(value) {
   const textarea = document.createElement("textarea");
   textarea.value = value;
@@ -808,6 +899,7 @@ function fallbackCopy(value) {
   try {
     copied = document.execCommand("copy");
   } catch (error) {
+    console.warn("Fallback copy failed.", error);
     copied = false;
   }
 
@@ -1113,9 +1205,7 @@ function normalizeSearchText(parts) {
 }
 
 function escapeCssString(value) {
-  return String(value)
-    .replace(/\\/g, "\\\\")
-    .replace(/"/g, '\\"');
+  return String(value).replaceAll("\\", String.raw`\\`).replaceAll('"', String.raw`\"`);
 }
 
 function hasOption(select, value) {
@@ -1140,10 +1230,15 @@ function showToast(message) {
 
   elements.toast.textContent = message;
   elements.toast.hidden = false;
+  elements.toast.classList.remove("is-visible");
+  // Force a reflow so the entrance animation replays for back-to-back messages.
+  void elements.toast.offsetWidth;
+  elements.toast.classList.add("is-visible");
 
   state.toastTimer = window.setTimeout(() => {
+    elements.toast.classList.remove("is-visible");
     elements.toast.hidden = true;
-  }, 2200);
+  }, 2400);
 }
 
 function createElement(tagName, options = {}) {
