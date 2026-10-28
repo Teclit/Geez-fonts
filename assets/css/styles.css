@@ -756,6 +756,18 @@
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
   }
 
+  .font-grid[data-mode="alphabet"][data-view="list"] {
+    grid-template-columns: 1fr;
+  }
+
+  .font-grid[data-mode="alphabet"][data-view="list"] .alphabet-card {
+    min-height: 0;
+  }
+
+  .font-grid[data-mode="alphabet"][data-view="list"] .alphabet-card__letters {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(var(--alphabet-preview-size) + 1.5rem)), 1fr));
+  }
+
   .alphabet-card {
     display: grid;
     gap: var(--space-4);
@@ -1146,6 +1158,11 @@
     .font-grid[data-view="list"] .font-card__footer {
       border-top: 0;
       padding-top: 0;
+    }
+
+    .font-grid[data-mode="alphabet"][data-view="list"] .alphabet-card {
+      grid-template-columns: minmax(160px, 0.25fr) 1fr;
+      align-items: center;
     }
   }
 

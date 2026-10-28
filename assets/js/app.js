@@ -453,8 +453,8 @@ function renderWorkspaceGrid() {
 function renderAlphabetGrid() {
   const cards = state.geezAlphabet.map((group) => createAlphabetCard(group));
   elements.cityGrid.dataset.mode = "alphabet";
-  elements.cityGrid.dataset.view = "grid";
-  syncViewButtons("grid");
+  elements.cityGrid.dataset.view = state.viewMode;
+  syncViewButtons(state.viewMode);
   elements.cityGrid.replaceChildren(...cards);
 }
 
