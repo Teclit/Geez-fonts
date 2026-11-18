@@ -46,14 +46,50 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/theme.js" defer></script>
     <script src="assets/js/ui.js" defer></script>
+    <script src="assets/js/sidebar.js" defer></script>
     <script src="assets/js/download-stats.js" defer></script>
     <script src="assets/js/app.js" defer></script>
   </head>
 
   <body>
     <a class="skip-link" href="#fontWorkspace">Skip to fonts</a>
+    <header class="mobile-bar">
+      <button class="mobile-bar__menu button button--secondary button--small" type="button" data-sidebar-toggle aria-controls="appSidebar" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span data-toggle-label>Menu</span>
+      </button>
+      <a class="mobile-bar__brand" href="index.html"><span class="mobile-bar__logo" aria-hidden="true">ግ</span>Geez Fonts</a>
+      <a class="mobile-bar__link" href="geez_fonts_guide.html">Guide</a>
+    </header>
     <main class="app-shell">
-      <aside class="sidebar" aria-label="Font choices for business documents">
+      <aside id="appSidebar" class="sidebar" aria-label="Font choices for business documents">
+        <nav class="site-nav" aria-label="Site">
+          <button class="site-nav__item site-nav__toggle" type="button" data-sidebar-toggle aria-controls="appSidebar" aria-expanded="true">
+            <svg class="site-nav__chevron" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 6l-6 6 6 6M20 4v16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="site-nav__label" data-toggle-label>Collapse</span>
+          </button>
+          <a class="site-nav__item" href="index.html" aria-current="page" title="Browse fonts">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            <span class="site-nav__label">Browse fonts</span>
+          </a>
+          <a class="site-nav__item" href="#controlsForm" data-sidebar-expand title="Filters and preview">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8M16 4v6M10 14v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="site-nav__label">Filters</span>
+          </a>
+          <a class="site-nav__item" href="geez_fonts_guide.html" title="Installation guide">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M8 7h7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="site-nav__label">Install guide</span>
+          </a>
+          <a class="site-nav__item" href="geez_fonts_guide.html#microsoft-word" title="Use in Word and Google Docs">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M14 3H6v18h12V7zM14 3v4h4M9 12h6M9 16h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="site-nav__label">Word &amp; Docs</span>
+          </a>
+          <a class="site-nav__item" href="geez_fonts_guide.html#troubleshooting" title="Troubleshooting">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5V14M12 17.5v.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span class="site-nav__label">Help</span>
+          </a>
+        </nav>
+
         <section class="brand-panel">
           <div class="panel-row">
             <span class="kicker">Free Geez Fonts</span>
